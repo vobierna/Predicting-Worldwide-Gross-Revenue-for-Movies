@@ -1,0 +1,501 @@
+"","x"
+"1","Spider-Man: No Way Home       (2021)+81.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$1,892,000,000.00+2h 28m"
+"2","Doctor Strange       (2016)+74.0+Action, Adventure, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$165,000,000.00Revenue$677,700,000.00+1h 55m"
+"3","Encanto       (2021)+77.0+Animation, Comedy, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$253,000,000.00+1h 42m"
+"4","Top Gun       (1986)+70.0+Action, Drama, Adventure+StatusReleasedOriginalLanguageEnglishBudget$15,000,000.00Revenue$356,830,601.00+1h 50m"
+"5","The Seven Deadly Sins: Cursed by Light       (2021)+79.0+Animation, Fantasy+OriginalTitle劇場版七つの大罪光に呪われし者たちStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 19m"
+"6","Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train       (2020)+84.0+Animation, Action, Adventure, Fantasy+OriginalTitle劇場版「鬼滅の刃」無限列車編StatusReleasedOriginalLanguageJapaneseBudget$15,800,000.00Revenue$503,063,688.00+1h 57m"
+"7","Venom: Let There Be Carnage       (2021)+70.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$500,000,000.00+1h 37m"
+"8","Eternals       (2021)+71.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$402,027,582.00+2h 36m"
+"9","Shang-Chi and the Legend of the Ten Rings       (2021)+77.0+Action, Adventure, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$432,243,292.00+2h 12m"
+"10","Sing 2       (2021)+81.0+Animation, Comedy, Family, Music+StatusReleasedOriginalLanguageEnglishBudget$85,000,000.00Revenue$406,000,000.00+1h 50m"
+"11","The King's Man       (2021)+69.0+Action, Adventure, Thriller, War, Mystery+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$125,928,656.00+2h 11m"
+"12","Resident Evil: Welcome to Raccoon City       (2021)+61.0+Horror, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$38,600,612.00+1h 47m"
+"13","Last Man Down       (2021)+63.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 27m"
+"14","Ghostbusters: Afterlife       (2021)+77.0+Fantasy, Comedy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$191,000,000.00+2h 4m"
+"15","The Boss Baby: Family Business       (2021)+76.0+Animation, Comedy, Adventure, Family+StatusReleasedOriginalLanguageEnglishBudget$82,000,000.00Revenue$146,745,280.00+1h 47m"
+"16","Fantastic Beasts and Where to Find Them       (2016)+74.0+Fantasy, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$180,000,000.00Revenue$809,342,332.00+2h 12m"
+"17","The Matrix Resurrections       (2021)+67.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$190,000,000.00Revenue$156,497,322.00+2h 28m"
+"18","Avatar       (2009)+75.0+Action, Adventure, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$237,000,000.00Revenue$2,847,246,203.00+2h 42m"
+"19","Mortal Kombat       (2021)+72.0+Action, Fantasy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$83,601,013.00+1h 50m"
+"20","Red Notice       (2021)+68.0+Action, Comedy, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$178,143.00+1h 58m"
+"21","Clifford the Big Red Dog       (2021)+73.0+Family, Adventure, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$64,000,000.00Revenue$67,000,000.00+1h 37m"
+"22","Avengers: Infinity War       (2018)+83.0+Adventure, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$300,000,000.00Revenue$2,046,239,637.00+2h 29m"
+"23","Fantastic Beasts: The Crimes of Grindelwald       (2018)+69.0+Fantasy, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$653,355,901.00+2h 14m"
+"24","The Suicide Squad       (2021)+77.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$185,000,000.00Revenue$167,417,425.00+2h 12m"
+"25","Jurassic World: Fallen Kingdom       (2018)+66.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$170,000,000.00Revenue$1,303,459,585.00+2h 9m"
+"26","PAW Patrol: The Movie       (2021)+75.0+Animation, Family, Adventure, Comedy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$26,000,000.00Revenue$144,327,371.00+1h 26m"
+"27","Free Guy       (2021)+77.0+Comedy, Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$331,096,766.00+1h 55m"
+"28","F9       (2021)+73.0+Action, Crime, Thriller, Adventure+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$726,229,501.00+2h 23m"
+"29","Cruella       (2021)+82.0+Comedy, Crime, Adventure+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$233,503,234.00+2h 14m"
+"30","Sonic the Hedgehog       (2020)+74.0+Action, Science Fiction, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$85,000,000.00Revenue$306,766,470.00+1h 39m"
+"31","Nightmare Alley       (2021)+71.0+Crime, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$39,629,195.00+2h 30m"
+"32","After We Fell       (2021)+71.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget$14,000,000.00Revenue$21,500,000.00+1h 39m"
+"33","Luca       (2021)+79.0+Animation, Comedy, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$49,010,641.00+1h 35m"
+"34","Chernobyl: Abyss       (2021)+62.0+Drama, History, Adventure+OriginalTitleЧернобыльStatusReleasedOriginalLanguageRussianBudget$9,100,000.00Revenue$6,459,306.00+2h 16m"
+"35","Zack Snyder's Justice League       (2021)+83.0+Action, Adventure, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$70,000,000.00Revenue-+4h 2m"
+"36","Pirates of the Caribbean: Dead Men Tell No Tales       (2017)+66.0+Adventure, Action, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$230,000,000.00Revenue$794,861,794.00+2h 9m"
+"37","Godzilla vs. Kong       (2021)+78.0+Action, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$467,863,133.00+1h 53m"
+"38","Jungle Cruise       (2021)+75.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$220,889,446.00+2h 7m"
+"39","Black Widow       (2021)+74.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$379,751,655.00+2h 14m"
+"40","Time Is Up       (2021)+64.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 48m"
+"41","Deathstroke: Knights & Dragons - The Movie       (2020)+69.0+Animation, Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 27m"
+"42","The Avengers       (2012)+77.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$220,000,000.00Revenue$1,518,815,515.00+2h 23m"
+"43","Dune       (2021)+79.0+Science Fiction, Adventure+StatusReleasedOriginalLanguageEnglishBudget$165,000,000.00Revenue$400,671,789.00+2h 35m"
+"44","Ron's Gone Wrong       (2021)+81.0+Animation, Science Fiction, Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue$60,000,000.00+1h 47m"
+"45","Dragon Ball Z: Resurrection 'F'       (2015)+68.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZ復活の「F」StatusReleasedOriginalLanguageJapaneseBudget$5,000,000.00Revenue$61,768,190.00+1h 33m"
+"46","No Time to Die       (2021)+75.0+Adventure, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$774,153,007.00+2h 43m"
+"47","Thor       (2011)+68.0+Adventure, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$449,326,618.00+1h 55m"
+"48","One Shot       (2021)+68.0+Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 37m"
+"49","The Conjuring: The Devil Made Me Do It       (2021)+76.0+Horror, Mystery, Thriller+StatusReleasedOriginalLanguageEnglishBudget$39,000,000.00Revenue$201,000,000.00+1h 51m"
+"50","Avengers: Endgame       (2019)+83.0+Adventure, Science Fiction, Action+StatusReleasedOriginalLanguageEnglishBudget$356,000,000.00Revenue$2,797,800,564.00+3h 1m"
+"51","Snake Eyes: G.I. Joe Origins       (2021)+67.0+Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$88,000,000.00Revenue$36,964,325.00+2h 1m"
+"52","The Tomorrow War       (2021)+80.0+Action, Science Fiction, Adventure+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue-+2h 18m"
+"53","Infinite       (2021)+67.0+Science Fiction, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 46m"
+"54","Harry Potter and the Philosopher's Stone       (2001)+79.0+Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue$976,475,550.00+2h 32m"
+"55","Finch       (2021)+81.0+Science Fiction, Drama, Adventure+StatusReleasedOriginalLanguageEnglishBudget$2,500,000.00Revenue-+1h 55m"
+"56","Space Jam: A New Legacy       (2021)+70.0+Family, Animation, Comedy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$161,900,000.00Revenue$162,892,228.00+1h 55m"
+"57","The Maze Runner       (2014)+72.0+Action, Mystery, Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget$34,000,000.00Revenue$348,319,861.00+1h 53m"
+"58","Raya and the Last Dragon       (2021)+80.0+Animation, Family, Fantasy, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$130,000,000.00+1h 47m"
+"59","The Last: Naruto the Movie       (2014)+78.0+Action, Romance, Animation+StatusReleasedOriginalLanguageJapaneseBudget$1,000,000.00Revenue$16,500,000.00+1h 54m"
+"60","The Addams Family 2       (2021)+71.0+Animation, Adventure, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget-Revenue$119,815,153.00+1h 33m"
+"61","The Wolf of Wall Street       (2013)+80.0+Crime, Drama, Comedy+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$392,000,000.00+3h"
+"62","Paranormal Activity: Next of Kin       (2021)+65.0+Horror, Mystery, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 38m"
+"63","My Hero Academia: Heroes Rising       (2019)+83.0+Animation, Action, Fantasy, Adventure+OriginalTitle僕のヒーローアカデミアTHEMOVIEヒーローズ：ライジングStatusReleasedOriginalLanguageJapaneseBudget-Revenue$29,900,850.00+1h 44m"
+"64","The Unholy       (2021)+68.0+Horror+StatusReleasedOriginalLanguageEnglishBudget$10,000,000.00Revenue$30,763,855.00+1h 39m"
+"65","Miraculous World: Shanghai â The Legend of Ladydragon       (2021)+79.0+Animation, Comedy, Family, Adventure+OriginalTitleMiraculousWorld:Shanghai,lalÃ©gendedeLadydragonStatusReleasedOriginalLanguageFrenchBudget-Revenue-+52m"
+"66","The Deep House       (2021)+64.0+Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 25m"
+"67","The Croods: A New Age       (2020)+76.0+Animation, Family, Adventure, Fantasy, Comedy+StatusReleasedOriginalLanguageEnglishBudget$65,000,000.00Revenue$168,285,000.00+1h 35m"
+"68","Deadpool       (2016)+76.0+Action, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$58,000,000.00Revenue$783,100,000.00+1h 48m"
+"69","Mother/Android       (2021)+58.0+Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 51m"
+"70","Naruto Shippuden the Movie       (2007)+72.0+Animation, Action, Fantasy+OriginalTitle劇場版NARUTO-ナルト-疾風伝StatusReleasedOriginalLanguageJapaneseBudget$29,000,000.00Revenue-+1h 34m"
+"71","Old       (2021)+65.0+Thriller, Mystery, Horror+StatusReleasedOriginalLanguageEnglishBudget$18,000,000.00Revenue$90,112,510.00+1h 48m"
+"72","Miraculous World: New York, United HeroeZ       (2020)+83.0+Animation, Family, Comedy, Adventure, TV Movie+OriginalTitleMiraculousWorld:NewYork,leshérosunisStatusReleasedOriginalLanguageFrenchBudget-Revenue-+55m"
+"73","Antlers       (2021)+64.0+Drama, Horror, Mystery+StatusReleasedOriginalLanguageEnglishBudget-Revenue$18,312,201.00+1h 39m"
+"74","Hacksaw Ridge       (2016)+82.0+Drama, History, War+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$175,302,354.00+2h 19m"
+"75","Wrath of Man       (2021)+77.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$103,966,489.00+1h 59m"
+"76","Harry Potter and the Chamber of Secrets       (2002)+77.0+Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$876,688,482.00+2h 41m"
+"77","Harry Potter and the Goblet of Fire       (2005)+78.0+Adventure, Fantasy, Family+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$895,921,036.00+2h 37m"
+"78","After We Collided       (2020)+73.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$42,000,000.00+1h 45m"
+"79","A Quiet Place Part II       (2021)+76.0+Science Fiction, Thriller, Horror+StatusReleasedOriginalLanguageEnglishBudget$61,000,000.00Revenue$297,372,261.00+1h 37m"
+"80","The Last Duel       (2021)+75.0+Action, Drama, History+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$30,500,000.00+2h 33m"
+"81","Apex       (2021)+54.0+Action, Thriller, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 48m"
+"82","After       (2019)+72.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget$14,000,000.00Revenue$69,497,587.00+1h 46m"
+"83","Don't Breathe 2       (2021)+74.0+Thriller, Horror+StatusReleasedOriginalLanguageEnglishBudget$10,000,000.00Revenue$45,000,000.00+1h 38m"
+"84","Boruto: Naruto the Movie       (2015)+76.0+Animation, Action, Comedy+OriginalTitleBORUTO-NARUTOTHEMOVIE-StatusReleasedOriginalLanguageJapaneseBudget-Revenue$40,200,000.00+1h 35m"
+"85","Back to the Outback       (2021)+77.0+Animation, Family, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 32m"
+"86","Harry Potter and the Prisoner of Azkaban       (2004)+80.0+Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$130,000,000.00Revenue$789,804,554.00+2h 21m"
+"87","Monster Hunter       (2020)+68.0+Action, Fantasy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$42,145,959.00+1h 44m"
+"88","No Manches Frida 2       (2019)+80.0+Comedy+StatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+1h 42m"
+"89","Shrek       (2001)+77.0+Animation, Comedy, Fantasy, Adventure, Family+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$487,853,320.00+1h 30m"
+"90","Your Name.       (2016)+85.0+Romance, Animation, Drama+OriginalTitle君の名は。StatusReleasedOriginalLanguageJapaneseBudget-Revenue$357,986,087.00+1h 46m"
+"91","Ciao Alberto       (2021)+76.0+Animation, Comedy, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$45,223.00Revenue-+7m"
+"92","Monsters, Inc.       (2001)+78.0+Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$115,000,000.00Revenue$579,707,738.00+1h 32m"
+"93","Black Water: Abyss       (2020)+52.0+Horror, Thriller, Adventure, Mystery+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 38m"
+"94","The Forever Purge       (2021)+72.0+Horror, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$18,000,000.00Revenue$76,994,245.00+1h 43m"
+"95","Wonder Woman 1984       (2020)+66.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$165,160,005.00+2h 31m"
+"96","Pokemon the Movie: Mewtwo Strikes Back - Evolution       (2019)+67.0+Animation, Adventure, Fantasy, Action, Family+OriginalTitle劇場版ポケットモンスターミュウツーの逆襲EVOLUTIONStatusReleasedOriginalLanguageJapaneseBudget-Revenue$26,654,184.00+1h 38m"
+"97","John Wick: Chapter 3 - Parabellum       (2019)+74.0+Action, Thriller, Crime+StatusReleasedOriginalLanguageEnglishBudget$55,000,000.00Revenue$326,709,727.00+2h 10m"
+"98","Army of Thieves       (2021)+69.0+Crime, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+2h 7m"
+"99","Tom & Jerry       (2021)+70.0+Comedy, Family, Animation+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$132,000,000.00+1h 41m"
+"100","Halloween Kills       (2021)+67.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$131,647,155.00+1h 45m"
+"101","KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson       (2019)+83.0+Animation, Adventure, Comedy, Fantasy+OriginalTitle映画この素晴らしい世界に祝福を！紅伝説StatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 30m"
+"102","The SpongeBob Movie: Sponge on the Run       (2020)+76.0+Family, Animation, Fantasy, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$4,700,000.00+1h 35m"
+"103","It Follows       (2014)+66.0+Horror, Mystery+StatusReleasedOriginalLanguageEnglishBudget$2,000,000.00Revenue$14,674,076.00+1h 41m"
+"104","Captain America: Civil War       (2016)+74.0+Adventure, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$1,153,296,293.00+2h 27m"
+"105","Dragon Ball Z: Battle of Gods       (2013)+68.0+Animation, Action, Science Fiction+OriginalTitleドラゴンボールZ神と神StatusReleasedOriginalLanguageJapaneseBudget-Revenue$50,461,371.00+1h 25m"
+"106","Deadpool 2       (2018)+75.0+Action, Comedy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$786,365,638.00+1h 59m"
+"107","An Egg Rescue       (2021)+80.0+Animation, Comedy+OriginalTitleUnrescatedehuevitosStatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue$3,500,000.00+1h 28m"
+"108","The Lion King       (2019)+71.0+Adventure, Family, Animation, Drama+StatusReleasedOriginalLanguageEnglishBudget$260,000,000.00Revenue$1,667,635,327.00+1h 58m"
+"109","Soul       (2020)+82.0+Animation, Comedy, Fantasy, Family+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$136,384,442.00+1h 41m"
+"110","Nobody       (2021)+82.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$17,000,000.00Revenue$61,779,301.00+1h 32m"
+"111","The Hobbit: The Battle of the Five Armies       (2014)+73.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$956,019,788.00+2h 24m"
+"112","The Simpsons: The Good, the Bart, and the Loki       (2021)+75.0+Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+6m"
+"113","Spider-Man: Far From Home       (2019)+75.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$1,131,927,996.00+2h 9m"
+"114","Ava       (2020)+58.0+Action, Crime, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue$2,987,741.00+1h 36m"
+"115","Vanguard       (2020)+63.0+Action, Adventure, Crime+OriginalTitle急先锋StatusReleasedOriginalLanguageChineseBudget-Revenue$27,900,000.00+1h 47m"
+"116","My Hero Academia: Two Heroes       (2018)+80.0+Animation, Action, Adventure, Fantasy+OriginalTitle僕のヒーローアカデミアTHEMOVIE～2人の英雄～StatusReleasedOriginalLanguageJapaneseBudget$12,000,000.00Revenue$31,478,826.00+1h 36m"
+"117","Shrek 2       (2004)+72.0+Animation, Family, Comedy, Fantasy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$928,760,770.00+1h 33m"
+"118","The Marksman       (2021)+70.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$23,000,000.00Revenue$23,076,711.00+1h 48m"
+"119","Titanic       (1997)+79.0+Drama, Romance+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$2,187,463,944.00+3h 14m"
+"120","It Chapter Two       (2019)+69.0+Horror, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$79,000,000.00Revenue$473,122,525.00+2h 49m"
+"121","Fast & Furious Presents: Hobbs & Shaw       (2019)+69.0+Action, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$760,098,996.00+2h 17m"
+"122","Venom       (2018)+68.0+Science Fiction, Action+StatusReleasedOriginalLanguageEnglishBudget$116,000,000.00Revenue$855,013,954.00+1h 52m"
+"123","Boyka: Undisputed IV       (2016)+70.0+Action, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 27m"
+"124","Pacific Rim       (2013)+68.0+Action, Science Fiction, Adventure+StatusReleasedOriginalLanguageEnglishBudget$180,000,000.00Revenue$407,602,906.00+2h 11m"
+"125","Spirit Untamed       (2021)+75.0+Animation, Adventure, Family, Western+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$17,635,215.00+1h 28m"
+"126","Major Grom: Plague Doctor       (2021)+67.0+Action, Adventure+OriginalTitleМайорГром:ЧумнойДокторStatusReleasedOriginalLanguageRussianBudget$5,000,000.00Revenue$4,493,306.00+2h 16m"
+"127","The Fate of the Furious       (2017)+69.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$1,238,764,765.00+2h 16m"
+"128","Fury       (2014)+75.0+War, Drama, Action+StatusReleasedOriginalLanguageEnglishBudget$68,000,000.00Revenue$211,817,906.00+2h 15m"
+"129","Fifty Shades of Grey       (2015)+59.0+Drama, Romance, Thriller+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$571,006,128.00+2h 5m"
+"130","2012       (2009)+58.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$791,217,826.00+2h 38m"
+"131","The Conjuring       (2013)+75.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$13,000,000.00Revenue$319,494,638.00+1h 52m"
+"132","xXx: Return of Xander Cage       (2017)+59.0+Action, Adventure, Crime+StatusReleasedOriginalLanguageEnglishBudget$85,000,000.00Revenue$346,147,658.00+1h 47m"
+"133","Monster Pets: A Hotel Transylvania Short       (2021)+75.0+Animation, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+6m"
+"134","Me Before You       (2016)+79.0+Drama, Romance+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$207,945,075.00+1h 50m"
+"135","Mulan       (2020)+69.0+Adventure, Fantasy, Drama+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$66,800,000.00+1h 55m"
+"136","Frozen II       (2019)+73.0+Family, Animation, Adventure, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$1,450,026,933.00+1h 43m"
+"137","Joker       (2019)+82.0+Crime, Thriller, Drama+StatusReleasedOriginalLanguageEnglishBudget$55,000,000.00Revenue$1,074,251,311.00+2h 2m"
+"138","West Side Story       (2021)+72.0+Drama, Romance, Crime+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$74,530,532.00+2h 37m"
+"139","Given       (2020)+84.0+Animation, Drama, Music, Romance+OriginalTitle映画ギヴンStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h"
+"140","Gunpowder Milkshake       (2021)+64.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$344,931.00+1h 54m"
+"141","The Harder They Fall       (2021)+67.0+Western+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+2h 19m"
+"142","The Medium       (2021)+70.0+Horror, Thriller+OriginalTitleร่างทรงStatusReleasedOriginalLanguageThaiBudget-Revenue$7,230,000.00+2h 11m"
+"143","Roald Dahl's The Witches       (2020)+65.0+Family, Fantasy, Adventure, Comedy, Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue$26,900,000.00+1h 46m"
+"144","PokÃ©mon Detective Pikachu       (2019)+70.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$433,005,346.00+1h 45m"
+"145","The Help       (2011)+82.0+Drama+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$216,639,112.00+2h 26m"
+"146","The Conjuring 2       (2016)+73.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$320,392,818.00+2h 14m"
+"147","Dragon Ball Z: Broly â Second Coming       (1994)+67.0+Animation, Action, Science Fiction+OriginalTitleãã©ã´ã³ãã¼ã«ï¼ºå±éºãªãµããï¼è¶æ¦å£«ã¯ã­ãããªãStatusReleasedOriginalLanguageJapaneseBudget-Revenue$24,200,000.00+48m"
+"148","The Last Mercenary       (2021)+67.0+Action, Comedy+OriginalTitleLeDernierMercenaireStatusReleasedOriginalLanguageFrenchBudget-Revenue-+1h 50m"
+"149","Encounter       (2021)+65.0+Adventure, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 48m"
+"150","The Karate Kid       (2010)+65.0+Action, Adventure, Drama, Family+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$359,126,022.00+2h 20m"
+"151","The Vault       (2021)+70.0+Crime, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 58m"
+"152","Weathering with You       (2019)+81.0+Animation, Drama, Fantasy, Romance+OriginalTitle天気の子StatusReleasedOriginalLanguageJapaneseBudget-Revenue$186,965,409.00+1h 52m"
+"153","Dragon Ball Z: Broly â The Legendary Super Saiyan       (1993)+72.0+Animation, Science Fiction, Action+OriginalTitleãã©ã´ã³ãã¼ã«ï¼ºçãå°½ãã!!ç±æ¦ã»çæ¦ã»è¶æ¿æ¦StatusReleasedOriginalLanguageJapaneseBudget-Revenue$21,658,982.00+1h 10m"
+"154","Iron Man 3       (2013)+69.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$1,214,811,252.00+2h 10m"
+"155","Grown Ups       (2010)+63.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$271,430,189.00+1h 42m"
+"156","Wish Dragon       (2021)+81.0+Animation, Family, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue$25,860,000.00+1h 39m"
+"157","Taken 3       (2014)+62.0+Thriller, Action+StatusReleasedOriginalLanguageEnglishBudget$48,000,000.00Revenue$325,771,424.00+1h 49m"
+"158","Interstellar       (2014)+84.0+Adventure, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$165,000,000.00Revenue$701,729,206.00+2h 49m"
+"159","Tom Clancy's Without Remorse       (2021)+71.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 49m"
+"160","Army of the Dead       (2021)+63.0+Action, Crime, Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue$780,000.00+2h 28m"
+"161","Home Sweet Home Alone       (2021)+51.0+Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 33m"
+"162","Dragon Ball Z: Bio-Broly       (1994)+58.0+Animation, Action, Science Fiction+OriginalTitleドラゴンボールＺ超戦士撃破!!勝のはオレだStatusReleasedOriginalLanguageJapaneseBudget-Revenue$19,500,000.00+50m"
+"163","The Proposal       (2009)+71.0+Comedy, Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$317,375,031.00+1h 48m"
+"164","Naruto Shippuden the Movie: Blood Prison       (2011)+72.0+Thriller, Animation, Action, Comedy, Horror, Mystery+OriginalTitle劇場版NARUTO-ナルト-ブラッド・プリズンStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 48m"
+"165","A Silent Voice: The Movie       (2016)+84.0+Animation, Drama, Romance+OriginalTitle映画聲の形StatusReleasedOriginalLanguageJapaneseBudget-Revenue$30,156,463.00+2h 10m"
+"166","Grown Ups 2       (2013)+61.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$247,022,278.00+1h 41m"
+"167","Sweet Girl       (2021)+68.0+Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 50m"
+"168","Evangelion: 3.0+1.0 Thrice Upon a Time       (2021)+84.0+Animation, Action, Science Fiction, Drama+OriginalTitleシン・エヴァンゲリオン劇場版:||StatusReleasedOriginalLanguageJapaneseBudget-Revenue$92,246,218.00+2h 35m"
+"169","Furious 7       (2015)+72.0+Action, Thriller, Crime, Adventure+StatusReleasedOriginalLanguageEnglishBudget$190,000,000.00Revenue$1,515,047,671.00+2h 17m"
+"170","How I Became a Superhero       (2020)+62.0+Science Fiction, Adventure, Action, Comedy, Thriller+OriginalTitleCommentjesuisdevenusuper-hérosStatusReleasedOriginalLanguageFrenchBudget$18,000,000.00Revenue-+1h 41m"
+"171","AINBO: Spirit of the Amazon       (2021)+71.0+Adventure, Animation, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue$7,877,742.00+1h 24m"
+"172","Injustice       (2021)+77.0+Animation, Science Fiction, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 18m"
+"173","The Kissing Booth 3       (2021)+71.0+Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 52m"
+"174","Spider-Man       (2002)+72.0+Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$139,000,000.00Revenue$821,708,551.00+2h 1m"
+"175","Toy Story 4       (2019)+76.0+Family, Adventure, Animation, Comedy, Fantasy, Drama+StatusReleasedOriginalLanguageEnglishBudget$175,000,000.00Revenue$1,073,394,593.00+1h 40m"
+"176","Wrong Turn       (2021)+60.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue$3,777,969.00+1h 50m"
+"177","Aquaman       (2018)+69.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$1,148,528,393.00+2h 23m"
+"178","Despicable Me 3       (2017)+64.0+Action, Animation, Comedy, Family, Adventure+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$1,031,552,585.00+1h 36m"
+"179","Malignant       (2021)+69.0+Thriller, Horror, Mystery+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$24,640,084.00+1h 51m"
+"180","Peter Rabbit 2: The Runaway       (2021)+72.0+Family, Comedy, Adventure, Animation, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$45,000,000.00Revenue$153,000,000.00+1h 33m"
+"181","Godzilla: King of the Monsters       (2019)+67.0+Science Fiction, Action+StatusReleasedOriginalLanguageEnglishBudget$170,000,000.00Revenue$386,600,138.00+2h 12m"
+"182","Kingdom: Ashin of the North       (2021)+75.0+Drama, Fantasy, Thriller+OriginalTitle킹덤:아신전StatusReleasedOriginalLanguageKoreanBudget-Revenue-+1h 32m"
+"183","Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)       (2020)+70.0+Action, Crime+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$201,858,461.00+1h 49m"
+"184","House of Gucci       (2021)+67.0+Drama, Crime, History+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$151,758,425.00+2h 38m"
+"185","SAS: Red Notice       (2021)+59.0+Drama, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+2h"
+"186","Road to Ninja: Naruto the Movie       (2012)+76.0+Animation, Fantasy, Action+StatusReleasedOriginalLanguageJapaneseBudget-Revenue$17,322,136.00+1h 49m"
+"187","Captain Marvel       (2019)+69.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$152,000,000.00Revenue$1,128,276,090.00+2h 4m"
+"188","How to Train Your Dragon: The Hidden World       (2019)+78.0+Animation, Family, Adventure+StatusReleasedOriginalLanguageEnglishBudget$129,000,000.00Revenue$517,526,875.00+1h 44m"
+"189","Dragon Ball Z: Cooler's Revenge       (1991)+69.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZとびっきりの最強対最強StatusReleasedOriginalLanguageJapaneseBudget-Revenue$16,331,742.00+48m"
+"190","Terminator Genisys       (2015)+59.0+Science Fiction, Action, Thriller, Adventure+StatusReleasedOriginalLanguageEnglishBudget$155,000,000.00Revenue$440,603,537.00+2h 6m"
+"191","The Angry Birds Movie 2       (2019)+72.0+Animation, Comedy, Adventure, Family+StatusReleasedOriginalLanguageEnglishBudget$65,000,000.00Revenue$147,792,047.00+1h 37m"
+"192","Love & Other Drugs       (2010)+70.0+Drama, Comedy, Romance+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$102,820,008.00+1h 52m"
+"193","Once Upon a Snowman       (2020)+69.0+Animation, Family, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+7m"
+"194","Fear Street: 1994       (2021)+68.0+Mystery, Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 47m"
+"195","Despicable Me 2       (2013)+69.0+Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$76,000,000.00Revenue$970,761,885.00+1h 38m"
+"196","Maze Runner: The Scorch Trials       (2015)+67.0+Science Fiction, Action, Thriller, Adventure+StatusReleasedOriginalLanguageEnglishBudget$61,000,000.00Revenue$312,296,056.00+2h 11m"
+"197","The ProtÃ©gÃ©       (2021)+66.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue$8,639,684.00+1h 49m"
+"198","Vicky and Her Mystery       (2021)+72.0+Adventure, Family, Drama+OriginalTitleMystèreStatusReleasedOriginalLanguageFrenchBudget$6,500,000.00Revenue$4,181,043.00+1h 24m"
+"199","Kingsman: The Secret Service       (2015)+76.0+Crime, Comedy, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$81,000,000.00Revenue$414,351,546.00+2h 9m"
+"200","Inception       (2010)+84.0+Action, Science Fiction, Adventure+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$825,532,764.00+2h 28m"
+"201","Jiu Jitsu       (2020)+50.0+Action, Science Fiction, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$23,000,000.00Revenue$99,924.00+1h 42m"
+"202","Star Wars       (1977)+82.0+Adventure, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$11,000,000.00Revenue$775,398,007.00+2h 1m"
+"203","Public Enemies       (2009)+67.0+Action, Crime+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$214,104,620.00+2h 20m"
+"204","The Lord of the Rings: The Fellowship of the Ring       (2001)+84.0+Adventure, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$93,000,000.00Revenue$871,368,364.00+2h 59m"
+"205","The Hunger Games: Mockingjay - Part 1       (2014)+68.0+Science Fiction, Adventure, Thriller+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue$752,100,229.00+2h 3m"
+"206","Cosmic Sin       (2021)+42.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue-+1h 28m"
+"207","San Andreas       (2015)+62.0+Action, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$473,990,832.00+1h 54m"
+"208","The Stronghold       (2021)+75.0+Thriller, Action, Crime+OriginalTitleBACNordStatusReleasedOriginalLanguageFrenchBudget$14,479,740.00Revenue-+1h 45m"
+"209","Dragon Ball Z: The World's Strongest       (1990)+64.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZこの世で一番強いヤツStatusReleasedOriginalLanguageJapaneseBudget-Revenue$18,000,000.00+1h"
+"210","Kung Fu Panda       (2008)+72.0+Action, Adventure, Animation, Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget$130,000,000.00Revenue$631,744,560.00+1h 30m"
+"211","Ready Player One       (2018)+76.0+Science Fiction, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$175,000,000.00Revenue$582,890,172.00+2h 20m"
+"212","The Last Airbender       (2010)+47.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$319,713,881.00+1h 43m"
+"213","Last Night in Soho       (2021)+75.0+Thriller, Horror, Mystery+StatusReleasedOriginalLanguageEnglishBudget$43,000,000.00Revenue$22,957,625.00+1h 57m"
+"214","Mad Max: Fury Road       (2015)+76.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$378,858,340.00+2h 1m"
+"215","No One Gets Out Alive       (2021)+60.0+Horror, Thriller, Mystery+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 25m"
+"216","The Hobbit: An Unexpected Journey       (2012)+73.0+Adventure, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$1,021,103,568.00+2h 49m"
+"217","The Lord of the Rings: The Two Towers       (2002)+84.0+Adventure, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$79,000,000.00Revenue$926,287,400.00+2h 59m"
+"218","Spiral: From the Book of Saw       (2021)+61.0+Horror, Crime, Mystery+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$40,618,920.00+1h 33m"
+"219","Predators       (2010)+62.0+Science Fiction, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$40,000,000.00Revenue$127,233,108.00+1h 47m"
+"220","Dragon Ball Super: Broly       (2018)+78.0+Action, Science Fiction, Animation+OriginalTitleドラゴンボール超スーパーブロリーStatusReleasedOriginalLanguageJapaneseBudget$1,000,000.00Revenue$125,002,821.00+1h 41m"
+"221","Voyagers       (2021)+61.0+Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$4,284,903.00+1h 48m"
+"222","X-Men: Apocalypse       (2016)+65.0+Action, Adventure, Science Fiction, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$178,000,000.00Revenue$543,934,787.00+2h 24m"
+"223","The Lord of the Rings: The Return of the King       (2003)+85.0+Adventure, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$94,000,000.00Revenue$1,118,888,979.00+3h 21m"
+"224","Jolt       (2021)+67.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue$238,524.00+1h 31m"
+"225","Spider-Man 3       (2007)+64.0+Fantasy, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$258,000,000.00Revenue$890,871,626.00+2h 19m"
+"226","Spider-Man: Into the Spider-Verse       (2018)+84.0+Action, Adventure, Animation, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$90,000,000.00Revenue$375,540,831.00+1h 57m"
+"227","Dragon Ball Z: Super Android 13!       (1992)+67.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールＺ極限バトル！三大超サイヤ人StatusReleasedOriginalLanguageJapaneseBudget-Revenue$18,554,927.00+46m"
+"228","How to Train Your Dragon: Homecoming       (2019)+81.0+Animation, Fantasy, Adventure, Action, Family+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+22m"
+"229","Scary Movie       (2000)+63.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$19,000,000.00Revenue$278,019,771.00+1h 28m"
+"230","Awake       (2021)+60.0+Drama, Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 36m"
+"231","Five Feet Apart       (2019)+83.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget$7,000,000.00Revenue$91,500,000.00+1h 56m"
+"232","The Exorcist       (1973)+77.0+Horror+StatusReleasedOriginalLanguageEnglishBudget$11,000,000.00Revenue$441,306,145.00+2h 2m"
+"233","Don't Look Up       (2021)+72.0+Comedy, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$784,681.00+2h 18m"
+"234","We Can Be Heroes       (2020)+62.0+Action, Fantasy, Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 37m"
+"235","Taken 2       (2012)+63.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$45,000,000.00Revenue$376,141,306.00+1h 31m"
+"236","The Hobbit: The Desolation of Smaug       (2013)+76.0+Fantasy, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$958,400,000.00+2h 41m"
+"237","Rascal Does Not Dream of a Dreaming Girl       (2019)+84.0+Animation, Comedy, Romance, Drama, Fantasy+OriginalTitle青春ブタ野郎はゆめみる少女の夢を見ないStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 30m"
+"238","Maze Runner: The Death Cure       (2018)+71.0+Science Fiction, Action, Adventure, Thriller+StatusReleasedOriginalLanguageEnglishBudget$62,000,000.00Revenue$288,175,335.00+2h 23m"
+"239","Train to Busan       (2016)+78.0+Action, Horror, Thriller+OriginalTitle부산행StatusReleasedOriginalLanguageKoreanBudget$8,500,000.00Revenue$87,547,518.00+1h 58m"
+"240","Sing       (2016)+71.0+Animation, Comedy, Family, Music+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$634,151,679.00+1h 48m"
+"241","Transformers: The Last Knight       (2017)+61.0+Action, Adventure, Science Fiction, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$217,000,000.00Revenue$605,425,157.00+2h 35m"
+"242","Fear Street: 1978       (2021)+73.0+Mystery, Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 50m"
+"243","Prometheus       (2012)+65.0+Science Fiction, Adventure, Mystery+StatusReleasedOriginalLanguageEnglishBudget$130,000,000.00Revenue$403,354,469.00+2h 4m"
+"244","Dragon Ball Z: Wrath of the Dragon       (1995)+72.0+Animation, Action, Science Fiction+OriginalTitleドラゴンボールZ龍拳爆発!!悟空がやらねば誰がやるStatusReleasedOriginalLanguageJapaneseBudget-Revenue$24,000,000.00+51m"
+"245","The Hangover Part II       (2011)+64.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$586,764,305.00+1h 42m"
+"246","Dawn of the Planet of the Apes       (2014)+73.0+Science Fiction, Action, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$170,000,000.00Revenue$710,644,566.00+2h 10m"
+"247","Jack Reacher       (2012)+66.0+Crime, Drama, Thriller, Action+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$218,340,595.00+2h 10m"
+"248","White Chicks       (2004)+69.0+Comedy, Crime+StatusReleasedOriginalLanguageEnglishBudget$37,000,000.00Revenue$113,086,475.00+1h 49m"
+"249","Skylines       (2020)+56.0+Science Fiction, Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 53m"
+"250","Outside the Wire       (2021)+64.0+Thriller, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 56m"
+"251","Shazam!       (2019)+71.0+Action, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$365,971,656.00+2h 12m"
+"252","Girl in the Basement       (2021)+80.0+Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 30m"
+"253","Penguins of Madagascar       (2014)+65.0+Family, Animation, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$132,000,000.00Revenue$373,552,094.00+1h 32m"
+"254","Naruto Shippuden the Movie: The Lost Tower       (2010)+70.0+Adventure, Action, Animation+OriginalTitle劇場版NARUTO-ナルト-疾風伝ザ・ロストタワーStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 25m"
+"255","Batman v Superman: Dawn of Justice       (2016)+59.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$873,637,528.00+2h 32m"
+"256","Alien: Covenant       (2017)+61.0+Horror, Science Fiction, Mystery+StatusReleasedOriginalLanguageEnglishBudget$97,000,000.00Revenue$240,891,763.00+2h 2m"
+"257","Tenet       (2020)+72.0+Action, Thriller, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$205,000,000.00Revenue$363,129,000.00+2h 30m"
+"258","Dragon Ball Z: The Tree of Might       (1990)+65.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZ地球まるごと超決戦StatusReleasedOriginalLanguageJapaneseBudget-Revenue$15,000,000.00+1h 1m"
+"259","Terminator Salvation       (2009)+60.0+Action, Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$371,353,001.00+1h 57m"
+"260","American Sniper       (2014)+74.0+War, Action+StatusReleasedOriginalLanguageEnglishBudget$58,800,000.00Revenue$542,307,423.00+2h 13m"
+"261","The Nun       (2018)+58.0+Horror, Mystery, Thriller+StatusReleasedOriginalLanguageEnglishBudget$22,000,000.00Revenue$365,550,119.00+1h 36m"
+"262","Aladdin       (2019)+71.0+Adventure, Fantasy, Romance, Family+StatusReleasedOriginalLanguageEnglishBudget$183,000,000.00Revenue$1,047,612,394.00+2h 8m"
+"263","Maleficent: Mistress of Evil       (2019)+73.0+Family, Fantasy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$185,000,000.00Revenue$491,570,967.00+1h 59m"
+"264","He's All That       (2021)+67.0+Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 31m"
+"265","Star Wars: The Rise of Skywalker       (2019)+64.0+Adventure, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$1,074,144,248.00+2h 22m"
+"266","Dragon Ball Z: Bojack Unbound       (1993)+70.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZ銀河ギリギリ!!ぶっちぎりの凄い奴StatusReleasedOriginalLanguageJapaneseBudget-Revenue$20,100,000.00+51m"
+"267","More the Merrier       (2021)+67.0+Comedy, Romance+OriginalTitleDondecabendosStatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+1h 52m"
+"268","Spirit: Stallion of the Cimarron       (2002)+77.0+Western, Animation, Adventure, Comedy, Family, Drama+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$122,563,539.00+1h 23m"
+"269","Ponyo       (2008)+77.0+Animation, Fantasy, Family+OriginalTitle崖の上のポニョStatusReleasedOriginalLanguageJapaneseBudget$41,677,699.00Revenue$202,404,009.00+1h 40m"
+"270","I Am Legend       (2007)+72.0+Drama, Science Fiction, Thriller+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$585,410,052.00+1h 41m"
+"271","Ralph Breaks the Internet       (2018)+72.0+Family, Animation, Comedy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$175,000,000.00Revenue$529,221,154.00+1h 52m"
+"272","Fairy Tail: Dragon Cry       (2017)+65.0+Action, Adventure, Comedy, Fantasy, Animation+OriginalTitle劇場版FAIRYTAIL『DRAGONCRY』StatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 25m"
+"273","Call Me by Your Name       (2017)+82.0+Romance, Drama+StatusReleasedOriginalLanguageEnglishBudget$4,000,000.00Revenue$41,063,475.00+2h 12m"
+"274","Warrior       (2011)+78.0+Drama, Action+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$23,308,615.00+2h 20m"
+"275","Jumanji: The Next Level       (2019)+70.0+Adventure, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue$800,059,707.00+2h 3m"
+"276","Dragon Ball Z: Bardock - The Father of Goku       (1990)+75.0+Animation, Action, Science Fiction, Drama, Fantasy+OriginalTitleドラゴンボールZたったひとりの最終決戦〜フリーザに挑んだZ戦士孫悟空の父〜StatusReleasedOriginalLanguageJapaneseBudget-Revenue-+48m"
+"277","The Unforgivable       (2021)+75.0+Drama, Crime+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 52m"
+"278","Ashfall       (2019)+66.0+Action, Adventure, Thriller+OriginalTitle백두산StatusReleasedOriginalLanguageKoreanBudget$17,700,000.00Revenue$61,321,941.00+2h 8m"
+"279","The Human Centipede (First Sequence)       (2009)+52.0+Horror+StatusReleasedOriginalLanguageEnglishBudget$2,011,799.00Revenue$252,207.00+1h 32m"
+"280","Zombieland       (2009)+73.0+Comedy, Horror+StatusReleasedOriginalLanguageEnglishBudget$23,600,000.00Revenue$102,391,540.00+1h 28m"
+"281","Rambo: Last Blood       (2019)+65.0+Action, Thriller, Drama+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$91,490,353.00+1h 29m"
+"282","Vivo       (2021)+76.0+Animation, Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 39m"
+"283","Chaos Walking       (2021)+67.0+Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue$26,943,020.00+1h 49m"
+"284","Annabelle Comes Home       (2019)+64.0+Horror, Thriller, Mystery+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$231,252,591.00+1h 46m"
+"285","Host       (2020)+66.0+Horror, Thriller, Mystery+StatusReleasedOriginalLanguageEnglishBudget-Revenue$26,745.00+57m"
+"286","Madagascar       (2005)+69.0+Family, Animation, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$542,063,846.00+1h 26m"
+"287","The New Mutants       (2020)+62.0+Horror, Science Fiction, Mystery, Action+StatusReleasedOriginalLanguageEnglishBudget$67,000,000.00Revenue$49,169,594.00+1h 34m"
+"288","Honest Thief       (2020)+65.0+Thriller, Action, Crime, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$31,220,247.00+1h 39m"
+"289","Bad Boys for Life       (2020)+72.0+Thriller, Action, Crime+StatusReleasedOriginalLanguageEnglishBudget$90,000,000.00Revenue$426,505,244.00+2h 4m"
+"290","The Dark Knight Rises       (2012)+78.0+Action, Crime, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$1,081,041,287.00+2h 45m"
+"291","Dragon Ball Z: Fusion Reborn       (1995)+75.0+Animation, Action, Fantasy, Science Fiction+OriginalTitleドラゴンボールZ復活のフュージョン!!悟空とベジータStatusReleasedOriginalLanguageJapaneseBudget-Revenue$23,500,000.00+55m"
+"292","Hitman: Agent 47       (2015)+58.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$35,000,000.00Revenue$81,967,450.00+1h 36m"
+"293","Dragon Ball Z: The Return of Cooler       (1992)+66.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールZ激突!!100億パワーの戦士たちStatusReleasedOriginalLanguageJapaneseBudget-Revenue$19,581,369.00+46m"
+"294","Brothers       (2009)+71.0+Drama, Thriller, War+StatusReleasedOriginalLanguageEnglishBudget$26,000,000.00Revenue$43,318,349.00+1h 45m"
+"295","X-Men: Days of Future Past       (2014)+75.0+Action, Adventure, Fantasy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$747,862,775.00+2h 12m"
+"296","King Richard       (2021)+79.0+Drama, History+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$30,000,000.00+2h 25m"
+"297","How to Train Your Dragon 2       (2014)+77.0+Fantasy, Action, Adventure, Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$145,000,000.00Revenue$621,537,500.00+1h 42m"
+"298","The Hangover Part III       (2013)+62.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$103,000,000.00Revenue$362,000,072.00+1h 40m"
+"299","Chappie       (2015)+68.0+Crime, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$49,000,000.00Revenue$104,399,548.00+2h"
+"300","Cars       (2006)+69.0+Animation, Adventure, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$120,000,000.00Revenue$461,983,149.00+1h 57m"
+"301","Don't Be a Menace to South Central While Drinking Your Juice in the Hood       (1996)+69.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$3,800,000.00Revenue$20,109,115.00+1h 29m"
+"302","Suicide Squad       (2016)+59.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$175,000,000.00Revenue$746,846,894.00+2h 3m"
+"303","CODA       (2021)+80.0+Drama, Music, Romance+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 52m"
+"304","The Hunt       (2020)+67.0+Action, Thriller, Horror+StatusReleasedOriginalLanguageEnglishBudget$14,000,000.00Revenue$8,621,288.00+1h 30m"
+"305","Taken       (2008)+74.0+Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$226,830,568.00+1h 34m"
+"306","Kate       (2021)+67.0+Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 46m"
+"307","Escape Room: Tournament of Champions       (2021)+67.0+Horror, Thriller, Mystery+StatusReleasedOriginalLanguageEnglishBudget$15,000,000.00Revenue$44,888,959.00+1h 28m"
+"308","The Matrix       (1999)+82.0+Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$63,000,000.00Revenue$463,517,383.00+2h 16m"
+"309","No Strings Attached       (2011)+63.0+Comedy, Romance+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$149,228,077.00+1h 47m"
+"310","Just Go with It       (2011)+66.0+Comedy, Romance+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$214,945,591.00+1h 57m"
+"311","Logan       (2017)+78.0+Action, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$97,000,000.00Revenue$619,021,436.00+2h 17m"
+"312","Bohemian Rhapsody       (2018)+80.0+Music, Drama, History+StatusReleasedOriginalLanguageEnglishBudget$52,000,000.00Revenue$894,027,543.00+2h 15m"
+"313","The Trip       (2021)+67.0+Action, Comedy, Thriller, Horror+OriginalTitleIondedagerStatusReleasedOriginalLanguageNorwegianBudget-Revenue-+1h 55m"
+"314","The Meg       (2018)+62.0+Action, Science Fiction, Horror+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$530,243,742.00+1h 53m"
+"315","Inglourious Basterds       (2009)+82.0+Drama, Action, Thriller, War+StatusReleasedOriginalLanguageEnglishBudget$70,000,000.00Revenue$321,457,747.00+2h 33m"
+"316","The Expendables       (2010)+62.0+Thriller, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$274,470,394.00+1h 43m"
+"317","The Dark Knight       (2008)+85.0+Drama, Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$185,000,000.00Revenue$1,004,558,444.00+2h 32m"
+"318","Superbad       (2007)+72.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$170,812,526.00+1h 53m"
+"319","Incredibles 2       (2018)+75.0+Action, Adventure, Animation, Family+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$1,242,805,359.00+1h 58m"
+"320","Night Teeth       (2021)+66.0+Horror, Thriller, Action+StatusReleasedOriginalLanguageEnglishBudget$21,700,000.00Revenue-+1h 47m"
+"321","Beckett       (2021)+63.0+Crime, Mystery, Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 49m"
+"322","Creed       (2015)+74.0+Drama+StatusReleasedOriginalLanguageEnglishBudget$37,000,000.00Revenue$173,567,581.00+2h 13m"
+"323","The Incredible Hulk       (2008)+62.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$163,712,074.00+1h 54m"
+"324","The Many Saints of Newark       (2021)+66.0+Crime, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$11,620,603.00+2h"
+"325","The SpongeBob SquarePants Movie       (2004)+70.0+Family, Animation, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$140,161,792.00+1h 27m"
+"326","The Kissing Booth 2       (2020)+78.0+Comedy, Romance+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+2h 12m"
+"327","We Bare Bears: The Movie       (2020)+79.0+Animation, Adventure, Family, Comedy, TV Movie+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 9m"
+"328","Spirited Away       (2001)+85.0+Animation, Family, Fantasy+OriginalTitle千と千尋の神隠しStatusReleasedOriginalLanguageJapaneseBudget$19,000,000.00Revenue$274,925,095.00+2h 5m"
+"329","American Pie Presents: Girls' Rules       (2020)+63.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 35m"
+"330","El mesero       (2021)+80.0+Comedy+StatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+1h 26m"
+"331","Creed II       (2018)+70.0+Drama+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$214,215,889.00+2h 10m"
+"332","The Nightmare Before Christmas       (1993)+78.0+Fantasy, Animation, Family+StatusReleasedOriginalLanguageEnglishBudget$24,000,000.00Revenue$75,634,409.00+1h 16m"
+"333","Hansel & Gretel: Witch Hunters       (2013)+60.0+Fantasy, Horror, Action+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$226,349,749.00+1h 28m"
+"334","The Courier       (2021)+71.0+Thriller, History, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$26,000,000.00+1h 52m"
+"335","Hotel Transylvania 3: Summer Vacation       (2018)+69.0+Family, Fantasy, Comedy, Animation+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$528,600,000.00+1h 37m"
+"336","Maquia: When the Promised Flower Blooms       (2018)+83.0+Animation, Fantasy, Romance, Drama+OriginalTitleさよならの朝に約束の花をかざろうStatusReleasedOriginalLanguageJapaneseBudget-Revenue$4,300,000.00+1h 55m"
+"337","There's Someone Inside Your House       (2021)+56.0+Thriller, Horror, Mystery+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 36m"
+"338","How to Train Your Dragon       (2010)+78.0+Fantasy, Adventure, Animation, Family+StatusReleasedOriginalLanguageEnglishBudget$165,000,000.00Revenue$494,878,759.00+1h 38m"
+"339","The First Purge       (2018)+60.0+Horror, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$13,000,000.00Revenue$137,056,262.00+1h 37m"
+"340","A Quiet Place       (2018)+74.0+Horror, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$17,000,000.00Revenue$340,677,200.00+1h 31m"
+"341","Cinderella       (2015)+68.0+Romance, Fantasy, Family, Drama+StatusReleasedOriginalLanguageEnglishBudget$95,000,000.00Revenue$543,514,353.00+1h 45m"
+"342","Beauty and the Beast       (2017)+70.0+Family, Fantasy, Romance+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$1,263,521,126.00+2h 9m"
+"343","Red Shoes and the Seven Dwarfs       (2019)+78.0+Animation, Romance, Family+StatusReleasedOriginalLanguageEnglishBudget-Revenue$10,054,356.00+1h 32m"
+"344","Terminator: Dark Fate       (2019)+65.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$185,000,000.00Revenue$261,119,292.00+2h 8m"
+"345","The Purge: Election Year       (2016)+64.0+Action, Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$10,000,000.00Revenue$118,587,880.00+1h 45m"
+"346","Fatherhood       (2021)+76.0+Drama, Family, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 49m"
+"347","Saw       (2004)+74.0+Horror, Mystery, Crime+StatusReleasedOriginalLanguageEnglishBudget$1,200,000.00Revenue$103,911,669.00+1h 43m"
+"348","Alone       (2020)+62.0+Thriller, Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 38m"
+"349","Sentinelle       (2021)+59.0+Thriller, Action, Drama+StatusReleasedOriginalLanguageFrenchBudget$6,500,000.00Revenue-+1h 20m"
+"350","Bad Trip       (2020)+61.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 27m"
+"351","Mission: Impossible - Fallout       (2018)+74.0+Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$178,000,000.00Revenue$791,017,452.00+2h 27m"
+"352","Dragon Ball Z: Lord Slug       (1991)+64.0+Action, Animation, Science Fiction+OriginalTitleドラゴンボールゼット超スーパーサイヤ人じんだ孫そん悟ご空くうStatusReleasedOriginalLanguageJapaneseBudget-Revenue$16,400,000.00+52m"
+"353","Zombieland: Double Tap       (2019)+70.0+Horror, Comedy+StatusReleasedOriginalLanguageEnglishBudget$42,000,000.00Revenue$122,801,777.00+1h 39m"
+"354","Cinderella II: Dreams Come True       (2002)+61.0+Family, Animation, Romance, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$5,000,000.00Revenue-+1h 14m"
+"355","Peninsula       (2020)+69.0+Action, Horror, Thriller+OriginalTitle반도StatusReleasedOriginalLanguageKoreanBudget$17,000,000.00Revenue$39,657,073.00+1h 56m"
+"356","It       (2017)+72.0+Horror, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$35,000,000.00Revenue$701,842,551.00+2h 15m"
+"357","Ice Age: Collision Course       (2016)+61.0+Adventure, Animation, Family, Comedy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$105,000,000.00Revenue$408,579,038.00+1h 35m"
+"358","Mission: Impossible - Ghost Protocol       (2011)+70.0+Action, Thriller, Adventure+StatusReleasedOriginalLanguageEnglishBudget$145,000,000.00Revenue$694,713,380.00+2h 13m"
+"359","Space Sweepers       (2021)+71.0+Drama, Fantasy, Science Fiction+OriginalTitle승리호StatusReleasedOriginalLanguageKoreanBudget$21,000,000.00Revenue-+2h 16m"
+"360","Godzilla       (2014)+63.0+Action, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$529,076,069.00+2h 3m"
+"361","The Shawshank Redemption       (1994)+87.0+Drama, Crime+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$28,341,469.00+2h 22m"
+"362","Nobody Sleeps in the Woods Tonight       (2020)+50.0+Horror, Thriller+OriginalTitleWlesiedziśniezaśnieniktStatusReleasedOriginalLanguagePolishBudget-Revenue-+1h 42m"
+"363","Parasite       (2019)+85.0+Comedy, Thriller, Drama+OriginalTitle기생충StatusReleasedOriginalLanguageKoreanBudget$11,363,000.00Revenue$257,591,776.00+2h 13m"
+"364","Kingsman: The Golden Circle       (2017)+70.0+Action, Adventure, Comedy, Science Fiction, Crime+StatusReleasedOriginalLanguageEnglishBudget$104,000,000.00Revenue$410,902,662.00+2h 21m"
+"365","Exodus: Gods and Kings       (2014)+58.0+Adventure, Drama, Action+StatusReleasedOriginalLanguageEnglishBudget$140,000,000.00Revenue$268,031,828.00+2h 30m"
+"366","Spies in Disguise       (2019)+77.0+Animation, Action, Adventure, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$171,616,764.00+1h 42m"
+"367","Kick-Ass       (2010)+71.0+Action, Crime+StatusReleasedOriginalLanguageEnglishBudget$28,000,000.00Revenue$96,188,903.00+1h 57m"
+"368","The Banker       (2020)+75.0+Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+2h"
+"369","Naruto Shippuden the Movie: The Will of Fire       (2009)+73.0+Action, Adventure, Comedy, Drama, Fantasy, Animation+OriginalTitle劇場版NARUTO-ナルト-疾風伝火の意志を継ぐ者StatusReleasedOriginalLanguageJapaneseBudget-Revenue$8,084,148.00+1h 35m"
+"370","365 Days       (2020)+70.0+Romance, Drama+OriginalTitle365dniStatusReleasedOriginalLanguagePolishBudget-Revenue$9,458,590.00+1h 56m"
+"371","The Croods       (2013)+69.0+Animation, Adventure, Family, Fantasy, Comedy, Action+StatusReleasedOriginalLanguageEnglishBudget$135,000,000.00Revenue$587,204,668.00+1h 38m"
+"372","Justice Society: World War II       (2021)+76.0+Animation, War, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 24m"
+"373","Fear Street: 1666       (2021)+73.0+Mystery, Horror+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 54m"
+"374","Bride of Chucky       (1998)+59.0+Comedy, Horror+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$50,671,850.00+1h 29m"
+"375","The Tourist       (2010)+62.0+Action, Thriller, Romance+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$278,731,369.00+1h 43m"
+"376","Kung Fu Panda 3       (2016)+69.0+Action, Adventure, Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$145,000,000.00Revenue$521,170,825.00+1h 35m"
+"377","Miracles from Heaven       (2016)+74.0+Drama+StatusReleasedOriginalLanguageEnglishBudget$16,000,000.00Revenue$73,983,359.00+1h 59m"
+"378","The Purge       (2013)+63.0+Science Fiction, Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$3,000,000.00Revenue$89,328,627.00+1h 26m"
+"379","A Whisker Away       (2020)+80.0+Animation, Drama, Romance, Fantasy+OriginalTitle泣きたい私は猫をかぶるStatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 44m"
+"380","Blade Runner 2049       (2017)+75.0+Science Fiction, Drama+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$259,239,658.00+2h 44m"
+"381","Kung Fu Panda 2       (2011)+69.0+Animation, Family+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$665,692,281.00+1h 31m"
+"382","The Book of Life       (2014)+75.0+Animation, Adventure, Comedy, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$97,437,106.00+1h 35m"
+"383","Those Who Wish Me Dead       (2021)+68.0+Thriller+StatusReleasedOriginalLanguageEnglishBudget$20,000,000.00Revenue$23,384,502.00+1h 40m"
+"384","Rio 2       (2014)+65.0+Adventure, Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$103,000,000.00Revenue$500,188,435.00+1h 41m"
+"385","The Predator       (2018)+56.0+Science Fiction, Action, Adventure, Comedy, Horror+StatusReleasedOriginalLanguageEnglishBudget$88,000,000.00Revenue$160,542,134.00+1h 47m"
+"386","I Want to Eat Your Pancreas       (2018)+83.0+Animation, Drama, Romance, Family+OriginalTitle君の膵臓をたべたいStatusReleasedOriginalLanguageJapaneseBudget-Revenue$33,748,006.00+1h 48m"
+"387","Split       (2016)+73.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$9,000,000.00Revenue$278,454,358.00+1h 57m"
+"388","A Dog's Purpose       (2017)+76.0+Adventure, Comedy, Fantasy, Family, Drama+StatusReleasedOriginalLanguageEnglishBudget$22,000,000.00Revenue$205,035,819.00+1h 40m"
+"389","Stand by Me Doraemon       (2014)+73.0+Animation, Family, Science Fiction, Fantasy+StatusReleasedOriginalLanguageJapaneseBudget$35,000,000.00Revenue$83,061,158.00+1h 30m"
+"390","Madagascar 3: Europe's Most Wanted       (2012)+66.0+Animation, Family, Comedy, Adventure+StatusReleasedOriginalLanguageEnglishBudget$145,000,000.00Revenue$746,921,274.00+1h 33m"
+"391","Naruto Shippuden the Movie: Bonds       (2008)+72.0+Fantasy, Animation, Action+OriginalTitle劇場版NARUTO-ナルト-疾風伝絆StatusReleasedOriginalLanguageJapaneseBudget-Revenue-+1h 30m"
+"392","Howl's Moving Castle       (2004)+84.0+Fantasy, Animation, Adventure+OriginalTitleハウルの動く城StatusReleasedOriginalLanguageJapaneseBudget$24,000,000.00Revenue$236,049,757.00+1h 59m"
+"393","How the Grinch Stole Christmas       (2000)+67.0+Family, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$123,000,000.00Revenue$345,141,403.00+1h 44m"
+"394","Armageddon       (1998)+68.0+Action, Thriller, Science Fiction, Adventure+StatusReleasedOriginalLanguageEnglishBudget$140,000,000.00Revenue$553,799,566.00+2h 31m"
+"395","The Grey       (2012)+66.0+Drama, Thriller, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$77,278,331.00+1h 57m"
+"396","Pretty Woman       (1990)+74.0+Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget$14,000,000.00Revenue$463,406,268.00+1h 59m"
+"397","The Grinch       (2018)+68.0+Animation, Family, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$508,575,295.00+1h 25m"
+"398","Werewolves Within       (2021)+61.0+Horror, Comedy+StatusReleasedOriginalLanguageEnglishBudget$6,500,000.00Revenue$250,811.00+1h 37m"
+"399","Rise of the Planet of the Apes       (2011)+73.0+Thriller, Action, Drama, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$93,000,000.00Revenue$482,860,185.00+1h 45m"
+"400","Tinker Bell and the Legend of the NeverBeast       (2014)+71.0+Adventure, Animation, Family+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 17m"
+"401","Pain & Gain       (2013)+62.0+Crime, Action, Comedy+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$87,305,549.00+2h 10m"
+"402","The Expendables 3       (2014)+62.0+Action, Adventure, Thriller+StatusReleasedOriginalLanguageEnglishBudget$95,000,000.00Revenue$214,700,000.00+2h 6m"
+"403","El Infierno       (2010)+77.0+Drama, Crime, Comedy+StatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+2h 25m"
+"404","Peter Pan       (1953)+72.0+Animation, Family, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$4,000,000.00Revenue$87,404,651.00+1h 17m"
+"405","Scary Stories to Tell in the Dark       (2019)+65.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$95,438,172.00+1h 48m"
+"406","Descendants 3       (2019)+78.0+Family, TV Movie, Music, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$15,000,000.00Revenue-+1h 46m"
+"407","Sword Art Online: The Movie â Ordinal Scale       (2017)+78.0+Animation, Action, Adventure, Fantasy, Romance, Science Fiction+OriginalTitleåå ´çã½ã¼ãã¢ã¼ãã»ãªã³ã©ã¤ã³-ãªã¼ãã£ãã«ã»ã¹ã±ã¼ã«-StatusReleasedOriginalLanguageJapaneseBudget-Revenue$20,725,409.00+1h 59m"
+"408","The Hunger Games: Mockingjay - Part 2       (2015)+69.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$160,000,000.00Revenue$653,428,261.00+2h 17m"
+"409","White House Down       (2013)+64.0+Action, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$205,366,737.00+2h 11m"
+"410","Independence Day       (1996)+68.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$817,400,891.00+2h 25m"
+"411","War for the Planet of the Apes       (2017)+71.0+Drama, Science Fiction, War+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$488,533,726.00+2h 20m"
+"412","The Fox and the Hound 2       (2006)+60.0+Adventure, Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$24,000,000.00Revenue-+1h 9m"
+"413","I Love You, Beth Cooper       (2009)+59.0+Comedy, Romance+StatusReleasedOriginalLanguageEnglishBudget$18,000,000.00Revenue$15,345,201.00+1h 42m"
+"414","Run       (2020)+74.0+Thriller, Horror, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$265,964.00+1h 30m"
+"415","The Secret Life of Pets 2       (2019)+70.0+Adventure, Animation, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$80,000,000.00Revenue$155,152,550.00+1h 26m"
+"416","Fear of Rain       (2021)+72.0+Thriller, Horror, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 49m"
+"417","Batman Begins       (2005)+77.0+Action, Crime, Drama+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$374,218,673.00+2h 20m"
+"418","Rurouni Kenshin: The Final       (2021)+79.0+Action, Adventure, Drama+OriginalTitleるろうに剣心最終章TheFinalStatusReleasedOriginalLanguageJapaneseBudget-Revenue$33,457,923.00+2h 18m"
+"419","The Human Centipede 2 (Full Sequence)       (2011)+48.0+Drama, Horror, Crime+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 31m"
+"420","Independence Day: Resurgence       (2016)+53.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$165,000,000.00Revenue$389,681,935.00+2h"
+"421","Shark Tale       (2004)+60.0+Animation, Action, Comedy, Family+StatusReleasedOriginalLanguageEnglishBudget$75,000,000.00Revenue$367,275,019.00+1h 30m"
+"422","The A-Team       (2010)+64.0+Thriller, Action, Adventure, Comedy, Crime+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$177,238,796.00+1h 57m"
+"423","GoodFellas       (1990)+85.0+Drama, Crime+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$46,835,000.00+2h 25m"
+"424","A Dog's Journey       (2019)+81.0+Family, Adventure, Drama+StatusReleasedOriginalLanguageEnglishBudget-Revenue$2,520,000.00+1h 49m"
+"425","The Craft: Legacy       (2020)+63.0+Horror, Drama, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 34m"
+"426","Cinderella       (2021)+65.0+Fantasy, Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 53m"
+"427","Scary Movie 3       (2003)+60.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$48,000,000.00Revenue$220,673,217.00+1h 24m"
+"428","Willy's Wonderland       (2021)+62.0+Action, Horror, Comedy+StatusReleasedOriginalLanguageEnglishBudget$5,000,000.00Revenue$431,020.00+1h 28m"
+"429","Madagascar: Escape 2 Africa       (2008)+65.0+Family, Adventure, Animation, Comedy+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$603,900,354.00+1h 29m"
+"430","Vacation Friends       (2021)+72.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 43m"
+"431","The Great Wall       (2016)+60.0+Action, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$331,957,105.00+1h 43m"
+"432","Stuart Little       (1999)+60.0+Family, Animation, Fantasy, Comedy+StatusReleasedOriginalLanguageEnglishBudget$133,000,000.00Revenue$300,135,367.00+1h 24m"
+"433","Extraction       (2020)+74.0+Drama, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$65,000,000.00Revenue-+1h 56m"
+"434","Candyman       (2021)+62.0+Horror+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$77,389,310.00+1h 31m"
+"435","District 9       (2009)+74.0+Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$210,819,611.00+1h 52m"
+"436","Super 8       (2011)+67.0+Thriller, Science Fiction, Mystery+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$260,095,986.00+1h 52m"
+"437","Constantine       (2005)+70.0+Fantasy, Action, Horror+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$230,884,728.00+2h 1m"
+"438","Dark Phoenix       (2019)+60.0+Science Fiction, Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$200,000,000.00Revenue$252,442,974.00+1h 54m"
+"439","Batman: The Long Halloween, Part Two       (2021)+77.0+Animation, Mystery, Action, Crime+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 27m"
+"440","The Little Things       (2021)+64.0+Thriller, Crime, Drama+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$29,942,746.00+2h 8m"
+"441","Trolls World Tour       (2020)+74.0+Family, Animation, Comedy, Fantasy, Adventure, Music+StatusReleasedOriginalLanguageEnglishBudget-Revenue$47,000,000.00+1h 30m"
+"442","Batman: Death in the Family       (2020)+73.0+Animation, Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+31m"
+"443","Death Race       (2008)+62.0+Action, Thriller, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$45,000,000.00Revenue$76,014,335.00+1h 45m"
+"444","Blood Red Sky       (2021)+71.0+Horror, Thriller, Action+StatusReleasedOriginalLanguageGermanBudget$17,739,525.00Revenue-+2h 1m"
+"445","Batman: The Long Halloween, Part One       (2021)+77.0+Animation, Mystery, Action, Crime+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 25m"
+"446","Mission: Impossible - Rogue Nation       (2015)+72.0+Action, Adventure+StatusReleasedOriginalLanguageEnglishBudget$150,000,000.00Revenue$682,330,139.00+2h 11m"
+"447","The Gentlemen       (2019)+77.0+Crime, Action, Comedy+StatusReleasedOriginalLanguageEnglishBudget$22,000,000.00Revenue$114,996,853.00+1h 53m"
+"448","Dirty Grandpa       (2016)+59.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$11,500,000.00Revenue$94,073,028.00+1h 42m"
+"449","Men in Black       (1997)+72.0+Action, Adventure, Comedy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$90,000,000.00Revenue$589,390,539.00+1h 38m"
+"450","Minions       (2015)+64.0+Family, Animation, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$74,000,000.00Revenue$1,156,730,962.00+1h 31m"
+"451","Secret Society of Second Born Royals       (2020)+68.0+Action, Adventure, Comedy, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 37m"
+"452","Artemis Fowl       (2020)+56.0+Adventure, Fantasy, Science Fiction, Family, Action+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue-+1h 34m"
+"453","Money Heist: The Phenomenon       (2020)+75.0+Documentary+OriginalTitleLaCasadePapel:elfenómenoStatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+57m"
+"454","The Hitman's Bodyguard       (2017)+69.0+Thriller, Comedy, Crime, Action+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$176,586,701.00+1h 58m"
+"455","Rambo: First Blood Part II       (1985)+66.0+Action, Adventure, Thriller, War+StatusReleasedOriginalLanguageEnglishBudget$44,000,000.00Revenue$300,400,432.00+1h 36m"
+"456","The Tax Collector       (2020)+57.0+Action, Crime, Drama+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$942,666.00+1h 35m"
+"457","Ferdinand       (2017)+72.0+Animation, Family, Adventure, Comedy+StatusReleasedOriginalLanguageEnglishBudget$111,000,000.00Revenue$295,038,508.00+1h 48m"
+"458","Back to the Future       (1985)+83.0+Adventure, Comedy, Science Fiction, Family+StatusReleasedOriginalLanguageEnglishBudget$19,000,000.00Revenue$381,109,762.00+1h 56m"
+"459","The Voyeurs       (2021)+67.0+Thriller+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 57m"
+"460","The Curse of La Llorona       (2019)+57.0+Horror, Thriller+StatusReleasedOriginalLanguageEnglishBudget$9,000,000.00Revenue$122,033,739.00+1h 33m"
+"461","(500) Days of Summer       (2009)+73.0+Comedy, Drama, Romance+StatusReleasedOriginalLanguageEnglishBudget$7,500,000.00Revenue$60,781,545.00+1h 35m"
+"462","Alvin and the Chipmunks       (2007)+58.0+Comedy, Family, Fantasy, Animation+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$361,366,633.00+1h 32m"
+"463","Scarface       (1983)+82.0+Action, Crime, Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$25,000,000.00Revenue$66,023,329.00+2h 50m"
+"464","Overboard       (2018)+67.0+Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget$12,000,000.00Revenue$91,244,913.00+1h 52m"
+"465","Enchanted       (2007)+68.0+Comedy, Family, Fantasy, Romance+StatusReleasedOriginalLanguageEnglishBudget$85,000,000.00Revenue$340,487,652.00+1h 47m"
+"466","Riddick       (2013)+63.0+Science Fiction, Action, Thriller+StatusReleasedOriginalLanguageEnglishBudget$38,000,000.00Revenue$98,337,295.00+1h 59m"
+"467","Baywatch       (2017)+61.0+Comedy, Action, Crime+StatusReleasedOriginalLanguageEnglishBudget$69,000,000.00Revenue$177,856,751.00+1h 56m"
+"468","Knight and Day       (2010)+62.0+Action, Comedy+StatusReleasedOriginalLanguageEnglishBudget$117,000,000.00Revenue$261,989,769.00+1h 49m"
+"469","Coming 2 America       (2021)+66.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue-+1h 50m"
+"470","The Green Mile       (1999)+85.0+Fantasy, Drama, Crime+StatusReleasedOriginalLanguageEnglishBudget$60,000,000.00Revenue$286,801,374.00+3h 9m"
+"471","The Cat in the Hat       (2003)+53.0+Comedy, Adventure, Family, Fantasy+StatusReleasedOriginalLanguageEnglishBudget$109,000,000.00Revenue$133,818,283.00+1h 22m"
+"472","Men in Black: International       (2019)+60.0+Comedy, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$110,000,000.00Revenue$252,608,480.00+1h 55m"
+"473","The Call       (2013)+68.0+Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$13,000,000.00Revenue$68,572,378.00+1h 34m"
+"474","Forrest Gump       (1994)+85.0+Comedy, Drama, Romance+StatusReleasedOriginalLanguageEnglishBudget$55,000,000.00Revenue$677,387,716.00+2h 22m"
+"475","Corpus Christi       (2019)+77.0+Drama+OriginalTitleBożeCiałoStatusReleasedOriginalLanguagePolishBudget-Revenue-+1h 56m"
+"476","Megamind       (2010)+69.0+Animation, Action, Comedy, Family, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$130,000,000.00Revenue$321,885,765.00+1h 36m"
+"477","13 Hours: The Secret Soldiers of Benghazi       (2016)+73.0+War, Action, History, Thriller, Drama+StatusReleasedOriginalLanguageEnglishBudget$50,000,000.00Revenue$69,411,370.00+2h 24m"
+"478","A Boy Called Christmas       (2021)+75.0+Family, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 44m"
+"479","Rango       (2011)+68.0+Animation, Comedy, Family, Western, Adventure+StatusReleasedOriginalLanguageEnglishBudget$135,000,000.00Revenue$245,724,603.00+1h 47m"
+"480","Barbie Fairytopia: Mermaidia       (2006)+68.0+Animation, Family, Adventure, Fantasy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 15m"
+"481","Bumblebee       (2018)+67.0+Action, Adventure, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$135,000,000.00Revenue$467,989,645.00+1h 54m"
+"482","Pulp Fiction       (1994)+85.0+Thriller, Crime+StatusReleasedOriginalLanguageEnglishBudget$8,000,000.00Revenue$214,179,088.00+2h 34m"
+"483","A Classic Horror Story       (2021)+59.0+Drama, Horror, Mystery, Comedy+StatusReleasedOriginalLanguageItalianBudget-Revenue-+1h 35m"
+"484","Knock Knock       (2015)+53.0+Drama, Thriller+StatusReleasedOriginalLanguageEnglishBudget$2,500,000.00Revenue$6,341,684.00+1h 39m"
+"485","Resort to Love       (2021)+73.0+Romance, Comedy+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 41m"
+"486","Solo: A Star Wars Story       (2018)+66.0+Science Fiction, Adventure, Action+StatusReleasedOriginalLanguageEnglishBudget$250,000,000.00Revenue$392,952,373.00+2h 15m"
+"487","Below Zero       (2021)+64.0+Action, Crime, Thriller+OriginalTitleBajoceroStatusReleasedOriginalLanguageSpanish;CastilianBudget-Revenue-+1h 46m"
+"488","The Three Stooges       (2012)+57.0+Comedy+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$54,819,301.00+1h 32m"
+"489","Ford v Ferrari       (2019)+80.0+Drama, Action, History+StatusReleasedOriginalLanguageEnglishBudget$97,600,000.00Revenue$225,508,210.00+2h 33m"
+"490","Shadow in the Cloud       (2020)+58.0+Horror, Action, War+StatusReleasedOriginalLanguageEnglishBudget-Revenue$1,025,190.00+1h 23m"
+"491","The Hunger Games: Catching Fire       (2013)+74.0+Adventure, Action, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$130,000,000.00Revenue$847,423,452.00+2h 26m"
+"492","Sicario       (2015)+74.0+Action, Crime, Thriller+StatusReleasedOriginalLanguageEnglishBudget$30,000,000.00Revenue$84,872,444.00+2h 2m"
+"493","Beetlejuice       (1988)+74.0+Fantasy, Comedy+StatusReleasedOriginalLanguageEnglishBudget$15,000,000.00Revenue$73,707,461.00+1h 32m"
+"494","The Expendables 2       (2012)+63.0+Action, Adventure, Thriller+StatusReleasedOriginalLanguageEnglishBudget$100,000,000.00Revenue$314,975,955.00+1h 43m"
+"495","Rocky IV       (1985)+70.0+Drama+StatusReleasedOriginalLanguageEnglishBudget$31,000,000.00Revenue$300,473,716.00+1h 31m"
+"496","101 Dalmatians II: Patch's London Adventure       (2002)+60.0+Family, Adventure, Comedy, Animation+StatusReleasedOriginalLanguageEnglishBudget-Revenue-+1h 14m"
+"497","Breach       (2020)+43.0+Science Fiction, Action+StatusReleasedOriginalLanguageEnglishBudget-Revenue$39,328.00+1h 32m"
+"498","Jupiter Ascending       (2015)+54.0+Science Fiction, Fantasy, Action+StatusReleasedOriginalLanguageEnglishBudget$176,000,003.00Revenue$183,987,723.00+2h 7m"
+"499","28 Days Later       (2002)+72.0+Horror, Thriller, Science Fiction+StatusReleasedOriginalLanguageEnglishBudget$5,000,000.00Revenue$85,720,385.00+1h 53m"
+"500","Total Recall       (2012)+60.0+Action, Science Fiction, Adventure, Thriller+StatusReleasedOriginalLanguageEnglishBudget$125,000,000.00Revenue$198,802,074.00+2h 1m"

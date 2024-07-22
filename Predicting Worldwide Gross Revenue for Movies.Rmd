@@ -1,0 +1,776 @@
+---
+title: '**Predicting Worldwide Gross Revenue for Movies**'
+output:
+  bookdown::markdown_document2:
+    df_print: paged
+  pdf_document:
+    number_sections: yes
+geometry: left=0.75in,right=0.75in,top=1in,bottom=1in
+documentclass: article
+classoption: a4paper
+fontsize: 11pt
+linestretch: 1.5
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      include = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+```{r load packages, include = FALSE}
+pacman::p_load(pacman, readxl, knitr, dplyr, nortest, ggplot2, gridExtra, grid, caret, PerformanceAnalytics, rpart, rpart.plot, mlr, parallel, parallelMap, randomForest, xgboost, MASS, car, lmtest, boot, stats, kableExtra)
+```
+
+
+
+# Introduction
+
+&nbsp;&nbsp;&nbsp;&nbsp; Revenue prediction is an important problem in the film industry that governs financial decisions made by producers and investors. Movies make a high profile, billion dollar industry and prediction of movie revenue can be very lucrative. Predicted revenues can be used for planning both the production and distribution stages. For example, projected gross revenue can be used to plan the remuneration of the actors and crew members as well as other parts of the budget.\
+&nbsp;&nbsp;&nbsp;&nbsp; Prediction of gross revenue of a movie depends on many factors including budget, release date, genres, runtime, and ratings. In this study, these factors will be explored and considered to predict the gross revenue of movies as accurately as possible. The prediction model will be constructed based on various movies released from 1921 to 2021. Four regression models (Linear Model, Decision Trees, Random Forest, and XGBoost) will be considered and each model performance will be evaluated.\
+&nbsp;&nbsp;&nbsp;&nbsp; The outline of the remainder of this report is as follows. In Section 2, the most important characteristics of data are presented. Model selection and discussion was discussed in Section 3. Concluding remarks can be found in Section 4 and other details are in the appendix.
+
+# Data Source and Structure
+
+&nbsp;&nbsp;&nbsp;&nbsp; The data are cross-sectional and gathered online from The Movie Database (TMDB). The raw text files were then processed with the help of R script developed during the data cleaning phase. In the process, movies with zero record on budget or revenue are removed. A total of 1589 observations with 22 independent variables were considered to build the regression models. More detailed explanations of these variables are available in A1 of section 5.\
+&nbsp;&nbsp;&nbsp;&nbsp; 2019 is the year with the highest number of movies released with average gross revenue of 202.17 million dollars followed by 2018 with 167.4 million dollars. The movie avatar released in 2009 and The Vault released in 2017 accumulated the highest and lowest gross revenue with 2.85 billion dollars and 5,728 dollars respectively. Table 1 below provides more details on gross revenue. Figure 1 shows the histogram plot of gross revenue is right skewed. As a consequence, natural logarithm of the values has been used instead of the actual values. The independent variable budget was also converted to its natural logarithmic form before using them in section 3.\
+
+```{r include=FALSE}
+pth <- paste(getwd(), "/movies data.xlsx", sep = "")
+df.raw <- read_excel(pth, 1)
+```
+
+```{r include=FALSE}
+#preview first and last 6 observations
+head(df.raw)
+tail(df.raw)
+```
+
+
+```{r include=FALSE}
+#Check variable and column format
+glimpse(df.raw)
+
+#check if there are duplicates in titles and year returns 0 if duplicate
+nrow(df.raw) - nrow(distinct(df.raw, title, year, .keep_all = TRUE))
+```
+
+```{r include=FALSE}
+#check for missing values
+apply(df.raw, 2, function(col) sum(is.na(col)))
+```
+
+
+```{r include=FALSE}
+#numerical summaries
+summary(df.raw)
+```
+
+```{r}
+data.frame(Variable = c("Gross Revenue", "Budget", "Runtime", "Rating", "Year"),
+           Mean = c(mean(df.raw$revenue), mean(df.raw$budget), mean(df.raw$runtime), mean(df.raw$rating), mean(df.raw$year)),
+           Median = c(median(df.raw$revenue), median(df.raw$budget), median(df.raw$runtime), median(df.raw$rating), median(df.raw$year)),
+           SD = c(sd(df.raw$revenue), sd(df.raw$budget), sd(df.raw$runtime), sd(df.raw$rating), sd(df.raw$year)),
+           Minimum = c(min(df.raw$revenue), min(df.raw$budget), min(df.raw$runtime), min(df.raw$rating), min(df.raw$year)),
+           Maximum = c(max(df.raw$revenue), max(df.raw$budget), max(df.raw$runtime), max(df.raw$rating), max(df.raw$year))) %>% mutate_if(is.numeric, round, 0) %>% kable(caption = "Movie Gross Revenue Summary Statistics", format.args = list(big.mark = ","), format = "pipe")
+```
+```{r include = FALSE}
+df.raw[which.max(df.raw$revenue), ]
+df.raw[which.min(df.raw$revenue), ]
+```
+
+
+
+
+```{r fig.height=4, fig.align="center", fig.cap="Histogram of Gross Revenue"}
+p1 <- ggplot(df.raw, aes(x=revenue)) + geom_histogram(aes(y=..density..), color="black", fill="white", bins=30) + geom_density(alpha=.2, fill="#FF6666")
+
+p2 <- ggplot(df.raw, aes(x=log(revenue))) + geom_histogram(aes(y=..density..), color="black", fill="white", bins=30) + geom_density(alpha=.2, fill="#FF6666")
+
+grid.arrange(p1, p2, ncol = 2)
+```
+
+
+```{r include=FALSE}
+#average worldwide revenues of movies per year
+(by.year <- df.raw %>%
+            group_by(year) %>%
+            summarise(m.revenue = mean(revenue),
+                      n.movies = n()) %>% arrange(desc(n.movies)))
+```
+
+
+
+```{r include=FALSE}
+#plot of top 10 year base on worldwide revenue
+by.year[1:10, ] %>% ggplot(aes(x = reorder(year, m.revenue), y = m.revenue)) + geom_bar(stat = "identity") + coord_flip() + labs(y = "Movie Year", x = "Average Worldwide Revenue")
+```
+
+```{r include=FALSE}
+#plot of bottom 10 year base on worldwide revenue
+n <- nrow(by.year) - 10
+
+by.year[n:nrow(by.year), ] %>% ggplot(aes(x = reorder(year, m.revenue), y = m.revenue)) + geom_bar(stat = "identity") + coord_flip() + labs(y = "Movie Year", x = "Average Worldwide Revenue")
+```
+
+```{r fig.align='center', fig.cap='Box Plots of Gross Revenue by Action, Animation, ScienceFiction and Horror', fig.height=3.6}
+i <- colnames(df.raw)[7:10]
+p <- vector(mode='list', length = length(i))
+
+n <- 1
+for (j in i){
+  x <- paste("as.factor(", j, ")", sep = "")
+  p[[n]] <- ggplot(df.raw, aes_string(x = x, y = "log(revenue)")) + geom_boxplot() + labs(x = j)
+  n <- n + 1
+}
+
+grid.arrange(grobs = p)
+```
+
+
+```{r fig.align='center', fig.cap='Box Plots of Gross Revenue by Fantasy, Family, Adventure and Comedy', fig.height=4}
+i <- colnames(df.raw)[11:14]
+p <- vector(mode='list', length = length(i))
+
+n <- 1
+for (j in i){
+  x <- paste("as.factor(", j, ")", sep = "")
+  p[[n]] <- ggplot(df.raw, aes_string(x = x, y = "log(revenue)")) + geom_boxplot() + labs(x = j)
+  n <- n + 1
+}
+
+grid.arrange(grobs = p)
+```
+
+```{r fig.align='center', fig.cap='Box Plots of Gross Revenue by Crime, Romance, Drama and Thriller', fig.height=4}
+i <- colnames(df.raw)[15:18]
+p <- vector(mode='list', length = length(i))
+
+n <- 1
+for (j in i){
+  x <- paste("as.factor(", j, ")", sep = "")
+  p[[n]] <- ggplot(df.raw, aes_string(x = x, y = "log(revenue)")) + geom_boxplot() + labs(x = j)
+  n <- n + 1
+}
+
+grid.arrange(grobs = p)
+```
+
+```{r fig.align='center', fig.cap='Box Plots of Gross Revenue by War, Western, Mystery and Music',  fig.height=4}
+i <- colnames(df.raw)[19:22]
+p <- vector(mode='list', length = length(i))
+
+n <- 1
+for (j in i){
+  x <- paste("as.factor(", j, ")", sep = "")
+  p[[n]] <- ggplot(df.raw, aes_string(x = x, y = "log(revenue)")) + geom_boxplot() + labs(x = j)
+  n <- n + 1
+}
+
+grid.arrange(grobs = p)
+```
+
+```{r fig.align='center', fig.cap='Box Plots of Gross Revenue by Documentary and History', fig.height=4}
+i <- colnames(df.raw)[23:24]
+p <- vector(mode='list', length = length(i))
+
+n <- 1
+for (j in i){
+  x <- paste("as.factor(", j, ")", sep = "")
+  p[[n]] <- ggplot(df.raw, aes_string(x = x, y = "log(revenue)")) + geom_boxplot() + labs(x = j)
+  n <- n + 1
+}
+
+grid.arrange(grobs = p, ncol = 2)
+```
+
+
+```{r fig.align='center', fig.cap='Correlation Plots of the Continuous Variables in dataset'}
+df.raw %>%
+  dplyr::select(year, rating, budget, revenue, runtime) %>%
+  chart.Correlation(histogram = TRUE)
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp; To understand the effects of genres on gross revenue, figures 2-6 presents box plots of gross revenue for each genre. The figures show if the movie genre are action, animation, science fiction, fantasy, family, and adventure, the average worldwide revenue is higher compared to others. On the other hand, if the movie genre are horror, drama, and mystery, the average worldwide revenue is lower compared to others.\
+&nbsp;&nbsp;&nbsp;&nbsp; Figure 7 shows the relationship of gross revenue with independent variables such as budget, year, runtime and rating. The corresponding correlation coefficients, histograms and scatter plots are shown as well to visualize the distributions and relationships of the said variables. Figure 7 shows, gross revenue has strong and moderate positive linear relationship with budget and runtime respectively. Furthermore, gross revenue has weak positive linear relationship with year and rating.
+
+```{r include=FALSE}
+df.raw %>%
+  mutate(lnrevenue = log(revenue),
+         lnbudget = log(budget)) %>%
+  dplyr::select(lnrevenue, lnbudget, year, runtime, rating) %>%
+  chart.Correlation(histogram = TRUE)
+```
+
+```{r include=FALSE}
+#log transform revenue and budget
+df <- df.raw %>%
+  mutate(lnrevenue = log(revenue),
+         lnbudget = log(budget)) %>%
+  dplyr::select(-c(revenue, budget, title))
+#80% - 20% train - test split
+set.seed(0)
+partition <- createDataPartition(df$lnrevenue, p = 0.8, list = FALSE)
+train <- df[partition, ]
+test <- df[-partition, ]
+
+summary(train$lnrevenue)
+summary(test$lnrevenue)
+```
+
+# Model Selection and Interpretation
+
+&nbsp;&nbsp;&nbsp;&nbsp; The main objective of this study is to predict the gross revenue of a new movie from the historical data available. The data were divided into 80% training and 20% test sets. The purpose was to fit the models to training set then use the test set for prediction since there is a need for the models to be tested on unseen data which will represent the real world scenario. The models were then evaluated using root mean square error and R-square. Since there is no concept of R-square in Gamma regression, deviance was used instead.\
+&nbsp;&nbsp;&nbsp;&nbsp; As a result of this study, I recommend a Random Forest model with 411 number of trees and 8 variables at each split. The parameters were obtained by hyperparameter tuning. The model was fitted with gross revenue and budget converted to their natural logarithmic forms to squish extreme values. Transforming the said variables provided better prediction compared to models without transformation. All independent variables were fitted in the model with log-transformed budget, year, rating and runtime as the most important factors for predicting gross revenue. Figure 8 shows the variable importance plot of the recommended model. The model provided a reasonable fit to the data since 88.6% of the variation in log-transformed gross revenue was explained by the independent variables.\
+&nbsp;&nbsp;&nbsp;&nbsp; A number of competing models were considered. Table 2 lists 12 competing models, 2 Random Forest, 7 Decision Trees, 2 XGboost, and 1 Gamma models. The same transformation for budget and gross revenue were done before fitted in Decision Trees and XGboost models. In contrast, no transformations was made for the Gamma model. Table 2 shows that the recommended model is the best among the other alternatives given the lowest root mean square error and highest R-square on the test and train set respectively. With this, the recommended model has the best goodness-of-fit and the clear choice among other models.\
+&nbsp;&nbsp;&nbsp;&nbsp; In addition to Decision Trees, Random Forest, XGboost, and Gamma models, the data was also fitted to linear model with normal distribution assumption. However, the residuals of the fitted model didn't satisfy the normality and constant variance assumption which led to the consideration of Gamma model because of the skewed distribution of gross revenue.
+
+
+```{r include=FALSE}
+## Decision Tree Model
+information.full <- rpart(lnrevenue ~ ., data = train, method = "anova", control = rpart.control(cp = 0), parms = list(split = "information"))
+
+rpart.plot(information.full)
+
+gini.full <- rpart(lnrevenue ~ ., data = train, method = "anova", control = rpart.control(cp = 0), parms = list(split = "gini"))
+
+rpart.plot(gini.full)
+```
+
+```{r include=FALSE}
+## Decision Tree Model
+information.full$cptable
+
+plotcp(information.full)
+
+#get sum of xerror + xstd
+cp.1se <- information.full$cptable[which.min(information.full$cptable[ , "xerror"]), "xerror"] + information.full$cptable[which.min(information.full$cptable[ , "xerror"]), "xstd"]
+
+#find the min value of xerror close to xerror + xstd then output the Cost complexity
+cp.1se <- information.full$cptable[which.min(abs(information.full$cptable[ , "xerror"] - cp.1se)), "CP"]
+
+model.pruned1 <- prune(information.full, cp = cp.1se)
+
+rpart.plot(model.pruned1)
+```
+
+```{r include=FALSE}
+## Decision Tree Model
+cp.min <- information.full$cptable[which.min(information.full$cptable[ , "xerror"]), "CP"]
+
+model.pruned2 <- prune(information.full, cp = cp.min)
+
+rpart.plot(model.pruned2)
+```
+
+```{r include=FALSE}
+## Decision Tree Model
+gini.full$cptable
+
+plotcp(gini.full)
+
+#get sum of xerror + xstd
+cp.1se <- gini.full$cptable[which.min(gini.full$cptable[ , "xerror"]), "xerror"] + gini.full$cptable[which.min(gini.full$cptable[ , "xerror"]), "xstd"]
+
+#find the min value of xerror close to xerror + xstd then output the Cost complexity
+cp.1se <- gini.full$cptable[which.min(abs(gini.full$cptable[ , "xerror"] - cp.1se)), "CP"]
+
+model.pruned3 <- prune(gini.full, cp = cp.1se)
+
+rpart.plot(model.pruned3)
+```
+
+```{r include=FALSE}
+## Decision Tree Model
+cp.min <- gini.full$cptable[which.min(gini.full$cptable[ , "xerror"]), "CP"]
+
+model.pruned4 <- prune(gini.full, cp = cp.min)
+
+rpart.plot(model.pruned4)
+```
+
+```{r include=FALSE}
+rmse1 <- function(observed, predicted){
+  sqrt(mean((observed - predicted)^2))
+}
+```
+
+```{r include=FALSE}
+train <- as.data.frame(train)
+test <- as.data.frame(test)
+
+#create task
+traintask <- makeRegrTask(data = train, target = "lnrevenue")
+testtask <- makeRegrTask(data = test, target = "lnrevenue")
+```
+
+```{r include=FALSE}
+set.seed(0)
+#create learner
+lrn <- makeLearner("regr.rpart")
+#lrn$par.vals <- list(cp = 0)
+
+#set parameter space
+params <- makeParamSet(makeIntegerParam("minsplit", lower = 1, upper = 20L),
+                       makeIntegerParam("maxdepth", lower = 1, upper = 20L),
+                       makeNumericParam("cp", lower = 0, upper = 0.9))
+
+#resampling
+rdesc <- makeResampleDesc("CV", iters = 5L)
+
+#search strategy
+ctrl <- makeTuneControlGrid()
+
+#parallel backend
+parallelStartSocket(cpus = detectCores())
+
+#parameter tuning
+tuner <- tuneParams(learner = lrn, task = traintask, resampling = rdesc, par.set = params, control = ctrl, show.info = T)
+
+tuner$y
+```
+
+```{r include=FALSE}
+#get best parameters
+lrn_tune <- setHyperPars(lrn, par.vals = tuner$x)
+
+#train new model
+model.prepruned <- train(learner = lrn_tune, task = traintask)
+
+rpart.plot(getLearnerModel(model.prepruned))
+```
+
+```{r include=FALSE}
+r_squared <- function(data, model, y){
+  rss <- sum((data[ , y] - predict(model, data))^2)
+  tss <- sum((data[ , y] - mean(data[ , y]))^2)
+  r <- 1 - (rss/tss)
+  return(r)
+}
+```
+
+
+```{r include=FALSE}
+#compare each models
+model.metrics <- data.frame(Model = character(),
+                            RMSE = double(),
+                            R.Squared = double())
+
+models <- c("gini.full", "information.full", "model.pruned1", "model.pruned2", "model.pruned3", "model.pruned4")
+
+for (i in models){
+  model.name <- i
+  r <- rmse1(exp(test$lnrevenue), exp(predict(get(i), newdata = test)))
+  s <- r_squared(train, get(model.name), "lnrevenue")
+  
+  model.metrics <- model.metrics %>%
+    add_row(Model = model.name,
+            RMSE = r,
+            R.Squared = s)
+}
+
+pred <- predict(model.prepruned, testtask)
+rss <- sum((train$lnrevenue - predict(model.prepruned, traintask)$data$response)^2)
+tss <- sum((train$lnrevenue - mean(train$lnrevenue))^2)
+r <- 1 - (rss/tss)
+
+(model.metrics <- model.metrics %>%
+  add_row(Model = "model.prepruned",
+          RMSE = rmse1(exp(test$lnrevenue), exp(pred$data$response)),
+          R.Squared = r)) %>% arrange(RMSE)
+```
+```{r include=FALSE}
+varImp(gini.full) %>% arrange(desc(Overall))
+```
+
+
+```{r include=FALSE}
+## Random Forest Model
+#train on default parameters
+set.seed(0)
+rf1 <- randomForest(lnrevenue ~ ., data = train, type = "regression")
+
+rf1
+
+plot(rf1)
+```
+
+```{r include=FALSE}
+#tune number of predictors
+set.seed(0)
+#create learner
+lrn <- makeLearner("regr.randomForest")
+
+#set parameter space
+params <- makeParamSet(makeIntegerParam("ntree", lower = 100L, upper = 500L),
+                       makeIntegerParam("mtry", lower = 1L, upper = 10L))
+
+#resampling
+rdesc <- makeResampleDesc("CV", iters = 5L)
+
+#search strategy
+ctrl <- makeTuneControlGrid()
+
+#parallel backend
+parallelStartSocket(cpus = detectCores())
+
+#parameter tuning
+tuner <- tuneParams(learner = lrn, task = traintask, resampling = rdesc, par.set = params, control = ctrl, show.info = T)
+
+tuner$y
+```
+
+```{r include=FALSE}
+#get best parameters
+lrn_tune <- setHyperPars(lrn, par.vals = tuner$x)
+
+#train new model
+rf2 <- train(learner = lrn_tune, task = traintask)
+```
+
+```{r include=FALSE}
+pred <- predict(rf2, testtask)
+
+rss <- sum((train$lnrevenue - predict(rf2, traintask)$data$response)^2)
+tss <- sum((train$lnrevenue - mean(train$lnrevenue))^2)
+r <- 1 - (rss/tss)
+
+#compare random forest models based on test data accuracy
+model.metrics <- model.metrics %>%
+  add_row(Model = "rf1",
+          RMSE = rmse1(exp(test$lnrevenue), exp(predict(rf1, newdata = test))),
+          R.Squared = r_squared(train, rf1, "lnrevenue")) %>%
+  add_row(Model = "rf2",
+          RMSE = rmse1(exp(test$lnrevenue), exp(pred$data$response)),
+          R.Squared = r)
+
+model.metrics %>% arrange(RMSE)
+```
+
+```{r, fig.height=5, fig.cap='Variable Importance'}
+varImpPlot(getLearnerModel(rf2), main = "")
+```
+
+
+
+
+```{r include=FALSE}
+## XGBoost Model
+tr <- model.matrix(lnrevenue ~ ., data = train)
+ts <- model.matrix(lnrevenue ~ ., data = test)
+
+tr_label <- train[ , "lnrevenue"]
+ts_label <- test[ , "lnrevenue"]
+
+new_tr <- xgb.DMatrix(data = tr, label = tr_label)
+new_ts <- xgb.DMatrix(data = ts, label = ts_label)
+```
+
+```{r include=FALSE}
+#run on default parameter
+params <- list(booster = "gbtree", objective = "reg:linear")
+
+set.seed(0)
+xgb1 <- xgb.cv(params = params, data = new_tr, nrounds = 10000, nfold = 5, print_every_n = 10, early_stopping_rounds = 20, stratified = T, maximize = F)
+
+#train model
+xgb1 <- xgb.train(params = params, data = new_tr, nrounds = 100, watchlist = list(train = new_tr, val = new_ts), print_every_n = 10, early_stopping_rounds = 20, maximize = F, eval_metric = "rmse")
+```
+```{r include=FALSE}
+set.seed(0)
+#create learner
+lrn <- makeLearner("regr.xgboost")
+lrn$par.vals <- list(objective = "reg:linear", eval_metric = "rmse", gamma = 0, booster = "gbtree")
+
+#set parameter space
+params <- makeParamSet(makeIntegerParam("max_depth", lower = 2L, upper = 10L),
+                       makeIntegerParam("nrounds", lower = 4L, upper = 500L),
+                       makeNumericParam("min_child_weight", lower = 0L, upper = 10L),
+                       makeNumericParam("eta", lower = 0.1, upper = 0.9),
+                       makeNumericParam("subsample", lower = 0.5, upper = 1),
+                       makeNumericParam("colsample_bytree", lower = 0.5, upper = 1),
+                       makeNumericParam("lambda", lower = 0, upper = 1))
+
+#resampling
+rdesc <- makeResampleDesc("CV", iters = 3L)
+
+#search strategy
+ctrl <- makeTuneControlRandom(maxit = 10L)
+
+#parallel backend
+parallelStartSocket(cpus = detectCores())
+
+#parameter tuning
+tuner <- tuneParams(learner = lrn, task = traintask, resampling = rdesc, measures = rmse, par.set = params, control = ctrl, show.info = T)
+
+tuner$y
+```
+
+```{r include=FALSE}
+#get best parameters
+lrn_tune <- setHyperPars(lrn, par.vals = tuner$x)
+
+invisible({capture.output({
+
+#train new model
+xgb2 <- train(learner = lrn_tune, task = traintask)
+
+})})
+
+```
+
+```{r include=FALSE}
+pred <- predict(xgb2, testtask)
+
+rss <- sum((train$lnrevenue - predict(xgb1, new_tr))^2)
+tss <- sum((train$lnrevenue - mean(train$lnrevenue))^2)
+r <- 1 - (rss/tss)
+
+rss <- sum((train$lnrevenue - predict(xgb2, traintask)$data$response)^2)
+s <- 1 - (rss/tss)
+
+#compare models
+(model.metrics <- model.metrics %>%
+  add_row(Model = "xgb1",
+          RMSE = rmse1(exp(test$lnrevenue), exp(predict(xgb1, new_ts))),
+          R.Squared = r) %>%
+  add_row(Model = "xgb2",
+          RMSE = rmse1(exp(test$lnrevenue), exp(pred$data$response)),
+          R.Squared = s) %>% arrange(RMSE))
+```
+
+
+
+```{r include=FALSE}
+## Linear Regression Model
+#revert back lnrevenue and lnbudget to original scale
+train2 <- train %>%
+  mutate(revenue = exp(lnrevenue),
+         budget = exp(lnbudget)) %>%
+  dplyr::select(-c(lnrevenue, lnbudget))
+
+test2 <- test %>%
+  mutate(revenue = exp(lnrevenue),
+         budget = exp(lnbudget)) %>%
+  dplyr::select(-c(lnrevenue, lnbudget))
+
+```
+
+
+
+```{r include=FALSE}
+fullmodel <- glm(revenue ~ ., family = Gamma(link = "log"), data = train2)
+basemodel <- glm(revenue ~ 1, family = Gamma(link = "log"), data = train2)
+
+#forward selection with AIC
+glm.model1 <- stepAIC(basemodel, scope = list(upper = fullmodel, lower = ~1), direction = "forward", trace = FALSE)
+
+summary(glm.model1)
+
+#remove insignificant variables
+glm.model1 <- update(glm.model1, .~. -History)
+
+summary(glm.model1)
+```
+
+```{r include=FALSE}
+#backward selection with AIC
+glm.model2 <- stepAIC(fullmodel, direction = "backward", trace = FALSE)
+
+summary(glm.model2)
+
+#remove insignificant variables
+glm.model2 <- update(glm.model2, .~. - History)
+
+summary(glm.model2)
+```
+
+```{r include=FALSE}
+#stepwise selection with AIC
+glm.model3 <- stepAIC(basemodel, scope = list(upper = fullmodel, lower = ~1), direction = "both", trace = FALSE)
+
+summary(glm.model3)
+
+#remove insignificant variables
+glm.model3 <- update(glm.model3, .~. - History)
+
+summary(glm.model3)
+```
+
+```{r include=FALSE}
+#forward selection with BIC
+glm.model4 <- stepAIC(basemodel, scope = list(upper = fullmodel, lower = ~1), direction = "forward", trace = FALSE, k = log(nrow(train)))
+
+summary(glm.model4)
+```
+
+```{r include=FALSE}
+#backward selection with BIC
+glm.model5 <- stepAIC(fullmodel, direction = "backward", trace = FALSE, k = log(nrow(train)))
+
+summary(glm.model5)
+```
+
+```{r include=FALSE}
+#stepwise selection with BIC
+glm.model6 <- stepAIC(basemodel, scope = list(upper = fullmodel, lower = ~1), direction = "both", trace = FALSE, k = log(nrow(train)))
+
+summary(glm.model6)
+```
+
+```{r include=FALSE}
+#compare models
+cv.metrics <- data.frame(Model = character(),
+                         cv.MSE = double(),
+                         test.MSE = double(),
+                         Deviance = double(),
+                         AIC = double(),
+                         BIC = double())
+for (i in 1:6){
+  model.name <- paste("glm.model", i, sep = "")
+  cv.MSE <- cv.glm(train2, get(model.name), K = 5)$delta[1]
+  test.MSE <- rmse1(test2$revenue, exp(predict(get(model.name), test2)))^2
+  
+  cv.metrics <- cv.metrics %>%
+    add_row(Model = model.name,
+            cv.MSE = cv.MSE,
+            test.MSE = test.MSE,
+            Deviance = deviance(get(model.name)),
+            AIC = AIC(get(model.name)),
+            BIC = BIC(get(model.name)))
+}
+cv.metrics %>% arrange(Deviance, test.MSE)
+
+#glm.model1 produced the lowest deviance and AIC. In addition glm.model1 has the lowest test MSE compared to other models.
+```
+
+
+```{r include=FALSE}
+lrtest(glm.model1, glm.model3)
+```
+
+```{r include=FALSE}
+lrtest(glm.model1, basemodel)
+```
+
+```{r include=FALSE}
+#diagnostics
+plot(glm.model1)
+
+residualPlots(glm.model1, type = "pearson", ask = FALSE)
+```
+
+```{r include=FALSE}
+vif(glm.model1)
+```
+
+```{r include=FALSE}
+final.glm <- update(glm.model1, .~. + I(budget^2) + I(year^2))
+
+summary(final.glm)
+```
+
+
+```{r include=FALSE}
+vif(final.glm)
+```
+
+```{r include=FALSE}
+final.glm <- update(glm.model1, .~. + I(budget^2) - I(year^2) - Family)
+
+summary(final.glm)
+```
+
+```{r include=FALSE}
+vif(final.glm)
+```
+
+```{r include=FALSE}
+plot(final.glm)
+residualPlots(final.glm, type = "pearson", ask = FALSE)
+```
+
+
+```{r include=FALSE}
+outlierTest(final.glm)
+```
+
+```{r include=FALSE}
+#compare with other models
+model.metrics <- model.metrics %>%
+  add_row(Model = "final.glm",
+          RMSE = rmse1(test2$revenue, exp(predict(final.glm, test2))),
+          R.Squared = NA) %>% arrange(RMSE)
+
+model.metrics %>% arrange(RMSE)
+```
+
+```{r}
+Models <- c("Tuned Random Forest",
+            "Random with Default Parameters",
+            "XGboost with Default Parameters",
+            "Tuned XGboost",
+            "Decision Tree with cp = 0 v1",
+            "Decision Tree with cp = 0 v2",
+            "Tuned Decision Tree",
+            "Pruned Decision Tree v2",
+            "Pruned Decision Tree v4",
+            "Gamma Model",
+            "Pruned Decision Tree v1",
+            "Pruned Decision Tree v3")
+
+model.metrics %>%
+  mutate(Models = Models) %>%
+  dplyr::select(Models, RMSE, R.Squared) %>% kable(caption = "Competing Models", format.args = list(big.mark = ","), format = "pipe")
+```
+
+# Summary and Conclusion
+
+&nbsp;&nbsp;&nbsp;&nbsp; The aim of this study was to predict the worldwide gross revenue of a movie as accurately as possible from publicly available data. The study was based from 1589 various movies extracted online from The Movie Database (TMDB) which is sufficient enough to build models for predicting gross revenue. Four regression methods, Gamma Regression, Decision Trees, Random Forest, and XGBoost were explored to find the model that will give the best prediction of gross revenue. Random Forest model provided the best prediction accuracy compared to others for the data. Budget, year, runtime, and rating were found to be the most important variables for predicting the gross revenue. In this study, budget, year, runtime, rating and genre are the only factors considered. There are other factors that could have been considered such as directors and casts. Nonetheless, the recommended model still provided satisfying prediction accuracy and goodness-of-fit to the data which can be used immediately to predict gross revenue of new and upcoming movies.
+
+# Appendix
+
+\begin{center}\textbf{Appendix Table of Contents}\end{center} 
+
+A1. Variable Definitions 
+
+A2. Final Fitted Gamma Regression Model: R Output
+
+A3. Simplest Decision Tree Diagram: R Output
+
+\
+\begin{center}\textbf{A1. Variable Definitions}\end{center}
+
+```{r}
+df.var <- read_excel(pth, 2)
+
+df.var %>% kable(format = "pipe")
+```
+
+\
+\begin{center}\textbf{A2. Final Fitted Gamma Regression Model: R Output}\end{center}
+
+```{r}
+summary(final.glm)
+```
+
+\
+\
+\
+\
+\
+\begin{center}\textbf{A3. Simplest Decision Tree Diagram: R Output}\end{center}
+
+```{r}
+rpart.plot(model.pruned1)
+```
+
+
+
+```{r unload packages, include = FALSE}
+p_unload(all)
+detach("package:grid")
+```
